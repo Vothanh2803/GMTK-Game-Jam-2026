@@ -1,0 +1,20 @@
+Enum          PascalCase
+Class         PascalCase
+Struct        PascalCase
+Interface     I + PascalCase
+Field private _camelCase
+Property PascalCase
+Method PascalCase
+Parameter camelCase
+Local Variable camelCase
+Const ALL_CAPS
+
+
+1 File = 1 Class/Struct/Enum
+Namespace = Folder Address (Game.Data.Enums = Data/Enums)
+Comment:
+/// <summary>
+/// This is commented.
+/// </summary>
+
+Dùng Region
