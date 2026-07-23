@@ -37,6 +37,7 @@ public class EnemyManager : MonoBehaviour
     {
         if (currentEnemy != null)
         {
+            Debug.Log("Do combo");
             currentEnemy.DoCombo();
         }
         else

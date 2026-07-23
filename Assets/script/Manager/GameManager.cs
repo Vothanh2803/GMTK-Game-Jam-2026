@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
             enemy.SpawnNextEnemy();
         }
 
-        ChangeState(GameState.PlayerTurn);
+        ChangeState(GameState.EnemyTurn);
     }
 
     private void HandlePlayerTurn()

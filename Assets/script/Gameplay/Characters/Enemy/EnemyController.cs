@@ -6,6 +6,8 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField] private EnemyData data;
     [SerializeField] private float currentHP;
+    [SerializeField] private Animator animator;
+
 
     public event Action OnEnemyDeath;
     public event Action OnTurnCompleted;
@@ -18,6 +20,7 @@ public class EnemyController : MonoBehaviour
     {
         data = enemyData;
         currentHP = data.HP;
+        if (animator == null) animator = GetComponent<Animator>();
     }
 
     public void TakeDamage(float damage)
@@ -42,10 +45,14 @@ public class EnemyController : MonoBehaviour
     {
         int randomIndex = UnityEngine.Random.Range(0, data.comboList.Length);
         EnemyComboData selectedCombo = data.comboList[randomIndex];
+        Debug.Log("rand index");
+
+        StartCoroutine(ExecuteCombo(selectedCombo));
     }
 
     private IEnumerator ExecuteCombo(EnemyComboData combo)
     {
+         Debug.Log("excute combo");
         foreach (EnemyAttackInfo attackInfo in combo.attackTypeList)
         {
             isHitFinished = false;
@@ -53,19 +60,19 @@ public class EnemyController : MonoBehaviour
 
             if (attackInfo.attackType == EnemyAttackType.heavyAttack)
             {
-                //Animation heavyAttack
+                animator.SetTrigger("HeavyAttack");
                 Debug.Log("heavyAttack");
             }
             else
             {
-                //Animation lightAttack
+                animator.SetTrigger("LightAttack");
                 Debug.Log("lightAttack");
             }
             yield return new WaitUntil(() => isHitFinished);
 
             yield return new WaitForSeconds(attackInfo.delayNextAttack);
         }
-
+        Debug.Log("Turn enemy complete");
         OnTurnCompleted?.Invoke();
     }
 
