@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     [Header("References")]
     // [SerializeField] private PlayerController player;
-    // [SerializeField] private EnemyManager enemy;
+    [SerializeField] private EnemyManager enemy;
 
     public GameState CurrentState => currentState;
 
@@ -21,6 +21,11 @@ public class GameManager : MonoBehaviour
             return;
         }
         Instance = this;
+    }
+
+    private void Start()
+    {
+        ChangeState(GameState.Init);
     }
 
 
@@ -56,6 +61,13 @@ public class GameManager : MonoBehaviour
     private void HandleInitState()
     {
         Debug.Log("Init state");
+
+        if (enemy != null)
+        {
+            enemy.SpawnNextEnemy();
+        }
+
+        ChangeState(GameState.PlayerTurn);
     }
 
     private void HandlePlayerTurn()
@@ -66,6 +78,11 @@ public class GameManager : MonoBehaviour
     private void HandleEnemyTurn()
     {
         Debug.Log("Enemy Turn");
+
+        if (enemy != null)
+        {
+            enemy.StartEnemyTurn();
+        }
     }
 
     private void HandleWinState()
@@ -84,8 +101,8 @@ public class GameManager : MonoBehaviour
 
         if (targetName == "Enemy")
         {
-            //if (enemy != null)
-                //enemy.ApplyDamage(damage);
+            if (enemy != null)
+                enemy.ApplyDamage(damage);
             Debug.Log("Apply damage on enemy");
         }
 

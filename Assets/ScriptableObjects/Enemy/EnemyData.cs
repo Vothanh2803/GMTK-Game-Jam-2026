@@ -4,5 +4,5 @@ using UnityEngine;
 public class EnemyData : ScriptableObject {
     public float HP;
     public GameObject enemyPrefab; 
-    
+    public EnemyComboData[] comboList;
 }
