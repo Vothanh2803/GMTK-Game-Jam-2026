@@ -45,14 +45,12 @@ public class EnemyController : MonoBehaviour
     {
         int randomIndex = UnityEngine.Random.Range(0, data.comboList.Length);
         EnemyComboData selectedCombo = data.comboList[randomIndex];
-        Debug.Log("rand index");
 
         StartCoroutine(ExecuteCombo(selectedCombo));
     }
 
     private IEnumerator ExecuteCombo(EnemyComboData combo)
     {
-         Debug.Log("excute combo");
         foreach (EnemyAttackInfo attackInfo in combo.attackTypeList)
         {
             isHitFinished = false;
@@ -61,18 +59,15 @@ public class EnemyController : MonoBehaviour
             if (attackInfo.attackType == EnemyAttackType.heavyAttack)
             {
                 animator.SetTrigger("HeavyAttack");
-                Debug.Log("heavyAttack");
             }
             else
             {
                 animator.SetTrigger("LightAttack");
-                Debug.Log("lightAttack");
             }
             yield return new WaitUntil(() => isHitFinished);
 
             yield return new WaitForSeconds(attackInfo.delayNextAttack);
         }
-        Debug.Log("Turn enemy complete");
         OnTurnCompleted?.Invoke();
     }
 
