@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameState currentState;
 
     [Header("References")]
-    // [SerializeField] private PlayerController player;
+    [SerializeField] private PlayerController player;
     [SerializeField] private EnemyManager enemy;
 
     public GameState CurrentState => currentState;

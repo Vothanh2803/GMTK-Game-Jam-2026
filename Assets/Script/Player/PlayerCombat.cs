@@ -23,6 +23,9 @@ public class PlayerCombat : MonoBehaviour
         }
 
         Debug.Log("Light Attack");
+        GameManager.Instance.SendAttack("Enemy", 10);
+        if (GameManager.Instance.CurrentState != GameState.Win && GameManager.Instance.CurrentState != GameState.Lose)
+            GameManager.Instance.ChangeState(GameState.EnemyTurn);
     }
 
     public void HeavyAttack()
@@ -34,6 +37,10 @@ public class PlayerCombat : MonoBehaviour
         }
 
         Debug.Log("Heavy Attack");
+        GameManager.Instance.SendAttack("Enemy", 20);
+
+        if (GameManager.Instance.CurrentState != GameState.Win && GameManager.Instance.CurrentState != GameState.Lose)
+            GameManager.Instance.ChangeState(GameState.EnemyTurn);
     }
 
     public void RageAttack()
@@ -47,6 +54,13 @@ public class PlayerCombat : MonoBehaviour
         playerStats.ConsumeRage();
 
         Debug.Log("Rage Attack");
+    }
+
+    public void SkipTurn()
+    {
+        Debug.Log("Skip Turn");
+        if (GameManager.Instance.CurrentState != GameState.Win && GameManager.Instance.CurrentState != GameState.Lose)
+            GameManager.Instance.ChangeState(GameState.EnemyTurn);
     }
 
 }
