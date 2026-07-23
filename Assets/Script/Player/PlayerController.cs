@@ -3,9 +3,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private PlayerCombat combat;
-    private PlayerParry parry;
+    public PlayerParry parry;
     private PlayerRage rage;
-    private PlayerStats stats;
+    public PlayerStats stats;
+
+    
 
     private void Awake()
     {
@@ -28,10 +30,5 @@ public class PlayerController : MonoBehaviour
     public void OnRageAttack()
     {
         combat.RageAttack();
-    }
-
-    public void OnParry()
-    {
-        parry.StartParry();
     }
 }

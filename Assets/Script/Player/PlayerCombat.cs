@@ -54,6 +54,10 @@ public class PlayerCombat : MonoBehaviour
         playerStats.ConsumeRage();
 
         Debug.Log("Rage Attack");
+        GameManager.Instance.SendAttack("Enemy", 40);
+
+        if (GameManager.Instance.CurrentState != GameState.Win && GameManager.Instance.CurrentState != GameState.Lose)
+            GameManager.Instance.ChangeState(GameState.EnemyTurn);
     }
 
     public void SkipTurn()

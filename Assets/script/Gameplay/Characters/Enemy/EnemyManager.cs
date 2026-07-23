@@ -2,13 +2,26 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
+    public static EnemyManager Instance { get; private set; }
+
     [SerializeField] private LevelData levelData;
-    [SerializeField] private Transform spawnPoint;
+    [SerializeField] public Transform spawnPoint;
+    [SerializeField] public Transform attackPoint;
 
     [SerializeField] private EnemyController currentEnemy;
     private int enemyIndex = 0;
 
     public EnemyController CurrentEnemy => currentEnemy;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+    }
 
     public void SpawnNextEnemy()
     {

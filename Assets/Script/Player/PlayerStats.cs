@@ -12,15 +12,15 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private int currentRage;
 
     [Header("Health")]
-    [SerializeField] private int maxHealth = 100;
-    [SerializeField] private int currentHealth;
-    public int CurrentHealth => currentHealth;
-    public int MaxHealth => maxHealth;
-    public int CurrentActionPoint => currentActionPoint;
-    public int MaxActionPoint => maxActionPoint;
+    [SerializeField] private float maxHealth = 100;
+    [SerializeField] private float currentHealth;
+    public float CurrentHealth => currentHealth;
+    public float MaxHealth => maxHealth;
+    public float CurrentActionPoint => currentActionPoint;
+    public float MaxActionPoint => maxActionPoint;
 
-    public int CurrentRage => currentRage;
-    public int MaxRage => maxRage;
+    public float CurrentRage => currentRage;
+    public float MaxRage => maxRage;
 
 
     private void Awake()
@@ -30,7 +30,7 @@ public class PlayerStats : MonoBehaviour
         currentRage = 0;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         currentHealth = Mathf.Max(currentHealth - damage, 0);
     }

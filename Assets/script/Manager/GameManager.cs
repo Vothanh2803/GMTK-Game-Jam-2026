@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
             enemy.SpawnNextEnemy();
         }
 
-        ChangeState(GameState.EnemyTurn);
+        ChangeState(GameState.PlayerTurn);
     }
 
     private void HandlePlayerTurn()
@@ -92,7 +92,8 @@ public class GameManager : MonoBehaviour
 
     private void HandleLoseState()
     {
-        Debug.Log("Lose state");
+        Debug.Log("YOU LOSE!");
+        Time.timeScale = 0f;
     }
 
     public void SendAttack(string targetName, float damage)
@@ -108,8 +109,7 @@ public class GameManager : MonoBehaviour
 
         if (targetName == "Player")
         {
-            //if (player != null) 
-                //apply damage on player
+            player.parry.TakeDamageWithParry(damage);
             Debug.Log("Apply damage on player");
         }
     }

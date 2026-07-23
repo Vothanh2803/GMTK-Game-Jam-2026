@@ -8,12 +8,16 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private float currentHP;
     [SerializeField] private Animator animator;
 
-
     public event Action OnEnemyDeath;
     public event Action OnTurnCompleted;
 
     private bool isHitFinished = false;
     private float currentDamge = 0f;
+    public bool isParryWindowOpen = false;
+    public float delayBeforeCombo = 1f;
+
+    public float CurrentHP => currentHP;
+    public float MaxHP => data != null ? data.HP : 100f;
 
 
     public void Init(EnemyData enemyData)
@@ -51,6 +55,9 @@ public class EnemyController : MonoBehaviour
 
     private IEnumerator ExecuteCombo(EnemyComboData combo)
     {
+        transform.position = EnemyManager.Instance.attackPoint.position;
+        yield return new WaitForSeconds(delayBeforeCombo);
+
         foreach (EnemyAttackInfo attackInfo in combo.attackTypeList)
         {
             isHitFinished = false;
@@ -68,18 +75,30 @@ public class EnemyController : MonoBehaviour
 
             yield return new WaitForSeconds(attackInfo.delayNextAttack);
         }
+
+        transform.position = EnemyManager.Instance.spawnPoint.position;
         OnTurnCompleted?.Invoke();
+        
+    }
+
+    public void OpenParryWindow()
+    {
+        isParryWindowOpen = true;
+        Debug.Log("Open parry window");
     }
 
     //Gan event nay o frame danh trung player
     public void OnHitImpact()
     {
         GameManager.Instance.SendAttack("Player", currentDamge);
+        isParryWindowOpen = false;
+        Debug.Log("Close parry window");
     }
 
     //Gan event nay o frame cuoi cung cua animation
     public void OnHitComplete()
     {
         isHitFinished = true;
+        isParryWindowOpen = false;
     }
 }
