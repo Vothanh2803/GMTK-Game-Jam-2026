@@ -39,12 +39,18 @@ public class EnemyController : MonoBehaviour
         {
             Die();
         }
+        animator.SetTrigger("Hurt");
     }
 
     public void TakePercentDamage(float percent)
     {
         float damageAmount = MaxHP * percent;
-        TakeDamage(damageAmount);
+        currentHP -= damageAmount;
+
+        if (currentHP <= 0)
+        {
+            Die();
+        }
     }
 
     public void Die()

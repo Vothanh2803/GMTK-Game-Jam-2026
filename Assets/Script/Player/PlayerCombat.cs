@@ -9,7 +9,6 @@ public class PlayerCombat : MonoBehaviour
 
     private int currentHeavyCost;    
     private PlayerStats playerStats;
-
     private PlayerController playerController;
 
     public bool IsBlocking { get; private set; } = false;
@@ -21,68 +20,75 @@ public class PlayerCombat : MonoBehaviour
         currentHeavyCost = baseHeavyAttackCost;
     }
 
+    public bool CanLightAttack()
+    {
+        if (GameManager.Instance.CurrentState != GameState.PlayerTurn) return false;
+        if (playerStats.CurrentActionPoint < lightAttackCost)
+        {
+            Debug.Log("Khong du AV cho LightAttack");
+            return false;
+        }
+        return true;
+    }
+
+    public bool CanHeavyAttack()
+    {
+        if (GameManager.Instance.CurrentState != GameState.PlayerTurn) return false;
+        if (playerStats.CurrentActionPoint < currentHeavyCost)
+        {
+            Debug.Log("Khong du AV cho HeavyAttack");
+            return false;
+        }
+        return true;
+    }
+
+    public bool CanPerformRageAttack()
+    {
+        if (GameManager.Instance.CurrentState != GameState.PlayerTurn) return false;
+        if (playerStats == null || playerStats.CurrentRage < playerStats.MaxRage)
+        {
+            Debug.Log("Rage chua day");
+            return false;
+        }
+        return true;
+    }
+
     public void LightAttack()
     {
-        if (GameManager.Instance.CurrentState != GameState.PlayerTurn) return;
-
-        if (!playerStats.ConsumeActionPoint(lightAttackCost))
-        {
-            Debug.Log("Không đủ Action Point!");
-            return;
-        }
+        if (!playerStats.ConsumeActionPoint(lightAttackCost)) return;
 
         IsBlocking = false;
         Debug.Log("Light Attack");
         
-        playerController.stats.AddRage(5);
+        playerController.stats.AddRage(10);
         GameManager.Instance.SendAttack("Enemy", 10);
-
-        if (GameManager.Instance.CurrentState != GameState.Win && GameManager.Instance.CurrentState != GameState.Lose)
-            GameManager.Instance.ChangeState(GameState.EnemyTurn);
-        
     }
 
     public void HeavyAttack()
     {
-        if (GameManager.Instance.CurrentState != GameState.PlayerTurn) return;
-
-        if (!playerStats.ConsumeActionPoint(baseHeavyAttackCost))
-        {
-            Debug.Log("Không đủ Action Point!");
-            return;
-        }
+        if (!playerStats.ConsumeActionPoint(currentHeavyCost)) return;
 
         IsBlocking = false;
         Debug.Log("Heavy Attack");
 
-        playerController.stats.AddRage(10);
+        playerController.stats.AddRage(25);
         GameManager.Instance.SendAttack("Enemy", 20);
 
         currentHeavyCost += heavyCostIncrement;
-        
-
-        if (GameManager.Instance.CurrentState != GameState.Win && GameManager.Instance.CurrentState != GameState.Lose)
-            GameManager.Instance.ChangeState(GameState.EnemyTurn);
-
     }
 
     public void RageAttack()
     {
-        if (GameManager.Instance.CurrentState != GameState.PlayerTurn) return;
-        
-        if (playerStats.CurrentRage < playerStats.MaxRage)
-        {
-            Debug.Log("Rage chưa đay!");
-            return;
-        }
-
         playerStats.ConsumeRage();
+        IsBlocking = false;
+        Debug.Log("Bắt đầu thi triển Rage Attack 3 Hit!");
+    }
 
-        Debug.Log("Rage Attack");
-        GameManager.Instance.SendAttack("Enemy", 40);
-
-        if (GameManager.Instance.CurrentState != GameState.Win && GameManager.Instance.CurrentState != GameState.Lose)
-            GameManager.Instance.ChangeState(GameState.EnemyTurn);
+    public void ExecuteRageSingleHitDamage()
+    {
+        float damagePerHit = 20;
+        GameManager.Instance.SendAttack("Enemy", damagePerHit);
+        Debug.Log($"Rage Hit! Gây {damagePerHit} damage");
     }
 
     public void Block()
@@ -100,5 +106,4 @@ public class PlayerCombat : MonoBehaviour
     {
         IsBlocking = false;
     }
-
 }

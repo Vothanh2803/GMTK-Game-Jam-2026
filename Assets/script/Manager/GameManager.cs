@@ -12,9 +12,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private EnemyManager enemy;
 
     [Header("AV / Time Settings")]
-    [SerializeField] private float initialAvInterval = 2.0f;
+    [SerializeField] private float initialAvInterval = 1.5f;
     [SerializeField] private float minAvInterval = 0.5f; 
-    [SerializeField] private float avIntervalStep = 0.2f;
+    [SerializeField] private float avIntervalStep = 0.25f;
 
     private float currentAvInterval;
     private float avTimer = 0f;
@@ -106,6 +106,7 @@ public class GameManager : MonoBehaviour
         
         currentAvInterval = Mathf.Max(initialAvInterval - (playerTurnCount - 1) * avIntervalStep, minAvInterval);
         avTimer = 0f;
+        player.isAttackedThisTurn = false;
 
         Debug.Log($"Player Turn {playerTurnCount} | Tốc độ trừ AV: 1 AV mỗi {currentAvInterval:F1}s");
     }

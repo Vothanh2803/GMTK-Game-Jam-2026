@@ -25,6 +25,15 @@ public class PlayerParry : MonoBehaviour
     }
 
     private void Update() {
+        if (GameManager.Instance.CurrentState != GameState.EnemyTurn)
+        {
+            if (isCharging || isParrying)
+            {
+                ForceReturnToIdle();
+            }
+            return;
+        }
+
         if (currentCooldownTimer > 0)
         {
             currentCooldownTimer -= Time.deltaTime;
@@ -62,9 +71,17 @@ public class PlayerParry : MonoBehaviour
             isCharging = true;
             currentEnergy = 0f;
             overchargeTimer = 0f;
+
+            Animator animator = GetComponent<Animator>();
+            if (animator != null)
+            {
+                animator.ResetTrigger("Unparry");
+                animator.SetTrigger("Parry");
+            }
         }
         else if (currentCooldownTimer > 0)
         {
+            
             Debug.Log("parry cooldown: " + currentCooldownTimer);
         }
     }
@@ -79,6 +96,14 @@ public class PlayerParry : MonoBehaviour
         currentEnergy = 0f;
 
         EvaluateEnergyParry(isFullCharge);
+
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.ResetTrigger("Parry");
+            
+            animator.SetTrigger("Unparry");
+        }
     }
 
     private void CancelChargingDueToOvercharge()
@@ -133,14 +158,18 @@ public class PlayerParry : MonoBehaviour
 
     public void TakeDamageWithParry(float damage)
     {
+        Animator animator = GetComponent<Animator>();
+
         if (isParrying)
         {
-            playerController.stats.AddRage(5);
+            playerController.stats.AddRage(10);
 
             if (EnemyManager.Instance != null)
             {
                 EnemyManager.Instance.ApplyParryDamagePercent(0.02f);
             }
+
+            animator.Play("ParrySuccess", 0, 0f);
 
             Debug.Log("Gay sat thuong len quai do parry");
         }
@@ -157,6 +186,9 @@ public class PlayerParry : MonoBehaviour
 
             playerController.stats.TakeDamage(finalDamage);
 
+            // animator.SetTrigger("Hurt");
+            animator.Play("hurt", 0, 0f);
+
             if (playerController.stats.CurrentHealth <= 0)
             {
                 GameManager.Instance.ChangeState(GameState.Lose);
@@ -166,5 +198,25 @@ public class PlayerParry : MonoBehaviour
         }
 
         isParrying = false;
+    }
+
+    public void ForceReturnToIdle()
+    {
+        isCharging = false;
+        isParrying = false;
+        currentEnergy = 0f;
+        overchargeTimer = 0f;
+
+        // Reset Animator
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.ResetTrigger("Parry");
+            animator.ResetTrigger("Unparry");
+            animator.ResetTrigger("ParrySuccess");
+            animator.ResetTrigger("Hurt");
+
+            animator.Play("Idle", 0, 0f);
+        }
     }
 }
