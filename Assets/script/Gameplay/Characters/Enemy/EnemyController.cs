@@ -16,7 +16,9 @@ public class EnemyController : MonoBehaviour
     public bool isParryWindowOpen = false;
     public float delayBeforeCombo = 1f;
 
+    public EnemyAttackType CurrentAttackType { get; private set; }
     public float CurrentHP => currentHP;
+
     public float MaxHP => data != null ? data.HP : 100f;
 
 
@@ -69,6 +71,8 @@ public class EnemyController : MonoBehaviour
             isHitFinished = false;
             currentDamge = attackInfo.damage;
 
+            CurrentAttackType = attackInfo.attackType;
+
             if (attackInfo.attackType == EnemyAttackType.heavyAttack)
             {
                 animator.SetTrigger("HeavyAttack");
@@ -106,5 +110,6 @@ public class EnemyController : MonoBehaviour
     {
         isHitFinished = true;
         isParryWindowOpen = false;
+        Debug.Log("hit complete");
     }
 }
