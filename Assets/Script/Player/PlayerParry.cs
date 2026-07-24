@@ -30,21 +30,7 @@ public class PlayerParry : MonoBehaviour
             currentCooldownTimer -= Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            if (GameManager.Instance.CurrentState == GameState.EnemyTurn && currentCooldownTimer <= 0)
-            {
-                isCharging = true;
-                currentEnergy = 0f;
-                overchargeTimer = 0f;
-            }
-            else if (currentCooldownTimer > 0)
-            {
-                Debug.Log("parry cooldown: " + currentCooldownTimer);
-            }
-        }
-
-        if (isCharging && Input.GetKey(KeyCode.F))
+        if (isCharging)
         {
             if (currentEnergy < 100f)
             {
@@ -63,24 +49,45 @@ public class PlayerParry : MonoBehaviour
 
                 if (overchargeTimer >= maxHoldTimeAfterFull)
                 {
-                    isCharging = false;
-                    currentEnergy = 0f;
-                    isParrying = false;
-                    currentCooldownTimer = parryCooldown;
-                    Debug.Log("parry that bai do thanh nang luong qua tai, vao cooldown");
+                    CancelChargingDueToOvercharge();
                 }
             }
         }
+    }
 
-        if (isCharging && Input.GetKeyUp(KeyCode.F))
+    public void StartCharging()
+    {
+        if (GameManager.Instance.CurrentState == GameState.EnemyTurn && currentCooldownTimer <= 0)
         {
-            bool isFullCharge = currentEnergy >= 100f;
-            
-            isCharging = false;
+            isCharging = true;
             currentEnergy = 0f;
-
-            EvaluateEnergyParry(isFullCharge);
+            overchargeTimer = 0f;
         }
+        else if (currentCooldownTimer > 0)
+        {
+            Debug.Log("parry cooldown: " + currentCooldownTimer);
+        }
+    }
+
+    public void ReleaseParry()
+    {
+        if (!isCharging) return;
+
+        bool isFullCharge = currentEnergy >= 100f;
+        
+        isCharging = false;
+        currentEnergy = 0f;
+
+        EvaluateEnergyParry(isFullCharge);
+    }
+
+    private void CancelChargingDueToOvercharge()
+    {
+        isCharging = false;
+        currentEnergy = 0f;
+        isParrying = false;
+        currentCooldownTimer = parryCooldown;
+        Debug.Log("parry that bai do thanh nang luong qua tai, vao cooldown");
     }
 
     private void EvaluateEnergyParry(bool isFullCharge)
@@ -123,37 +130,6 @@ public class PlayerParry : MonoBehaviour
             Debug.Log("parry that bai, vao cooldown");
         }
     }
-
-    // public void OnParryButtonPressed()
-    // {
-    //     if (GameManager.Instance.CurrentState != GameState.EnemyTurn) return;
-
-    //     if (currentCooldownTimer > 0)
-    //     {
-    //         Debug.Log("parry cooldown: " + currentCooldownTimer);
-    //         return;
-    //     }
-
-    //     bool isWindowOpen = EnemyManager.Instance != null && 
-    //                         EnemyManager.Instance.CurrentEnemy != null && 
-    //                         EnemyManager.Instance.CurrentEnemy.isParryWindowOpen;
-
-    //     if (isWindowOpen)
-    //     {
-    //         isParrying = true;
-    //         currentCooldownTimer = 0f;
-    //         Debug.Log("parry thanh cong!");
-            
-    //         // TODO: animation parry va VFX,SFX
-    //     }
-    //     else
-    //     {
-    //         isParrying = false;
-    //         currentCooldownTimer = parryCooldown;
-    //         Debug.Log("parry that bai, vao cooldown");
-    //     }
-
-    // }
 
     public void TakeDamageWithParry(float damage)
     {
