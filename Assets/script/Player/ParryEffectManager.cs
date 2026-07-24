@@ -42,22 +42,14 @@ public class ParryEffectManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Kích hoạt chuỗi hiệu ứng khi Full Charge Parry thành công
-    /// </summary>
     public void TriggerFullChargeParrySlowMotion()
     {
-        // 1. Kích hoạt Slow Motion
         if (slowMotionRoutine != null) StopCoroutine(slowMotionRoutine);
         slowMotionRoutine = StartCoroutine(DoSlowMotionRoutine());
 
-        // 2. Kích hoạt Giật Camera nhẹ
         TriggerCameraShake();
     }
 
-    /// <summary>
-    /// Gọi riêng hiệu ứng Giật Camera (có thể tái sử dụng cho các đòn đánh khác nếu muốn)
-    /// </summary>
     public void TriggerCameraShake()
     {
         if (mainCamera == null)
@@ -69,7 +61,6 @@ public class ParryEffectManager : MonoBehaviour
         if (cameraShakeRoutine != null)
         {
             StopCoroutine(cameraShakeRoutine);
-            // Trả camera về vị trí cũ trước khi bắt đầu cú rung mới
             mainCamera.transform.localPosition = originalCameraPosition;
         }
 
@@ -81,7 +72,6 @@ public class ParryEffectManager : MonoBehaviour
         Time.timeScale = slowMotionTimeScale;
         Time.fixedDeltaTime = 0.02f * Time.timeScale;
 
-        // Dùng WaitForSecondsRealtime để không bị hoãn đếm giờ do Time.timeScale bị hạ thấp
         yield return new WaitForSecondsRealtime(slowMotionDuration);
 
         ResetTimeScale();
@@ -94,19 +84,15 @@ public class ParryEffectManager : MonoBehaviour
 
         while (elapsed < shakeDuration)
         {
-            // Tạo vị trí ngẫu nhiên xung quanh vị trí gốc của Camera
             Vector3 randomOffset = Random.insideUnitSphere * shakeIntensity;
-            // Giữ nguyên trục Z để không bị lỗi đè/lệch khoảng cách nhìn 2D/3D
             randomOffset.z = 0f; 
 
             mainCamera.transform.localPosition = originalCameraPosition + randomOffset;
 
-            // Dùng unscaledDeltaTime để độ rung không bị đờ ra khi game đang Slow Motion
             elapsed += Time.unscaledDeltaTime;
             yield return null;
         }
-
-        // Trả Camera về đúng vị trí ban đầu
+        
         mainCamera.transform.localPosition = originalCameraPosition;
     }
 

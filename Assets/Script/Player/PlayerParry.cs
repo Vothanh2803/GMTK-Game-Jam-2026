@@ -179,7 +179,6 @@ public class PlayerParry : MonoBehaviour
                 {
                     ParryEffectManager.Instance.TriggerFullChargeParrySlowMotion();
                 }
-                Debug.Log("⚡ FULL CHARGE PARRY PERFECT! Slow motion activated!");
             }
 
             Debug.Log("Gay sat thuong len quai do parry");

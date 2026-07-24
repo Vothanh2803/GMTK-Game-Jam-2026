@@ -324,7 +324,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.6, y: 0}
-  m_AnchoredPosition: {x: 67.75, y: 57.9}
+  m_AnchoredPosition: {x: 89.14996, y: 57.899994}
   m_SizeDelta: {x: -135.5, y: 64}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &74743310
@@ -1211,6 +1211,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 316737177}
+  - component: {fileID: 316737178}
   m_Layer: 5
   m_Name: HeavyAttackPanel
   m_TagString: Untagged
@@ -1238,6 +1239,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &316737178
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316737176}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &332820125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,6 +1399,11 @@ MonoBehaviour:
   actionPointText: {fileID: 1393471640}
   rageText: {fileID: 447575532}
   parryEnergyText: {fileID: 0}
+  lightAttackButton: {fileID: 2125540370}
+  heavyAttackButton: {fileID: 1251939558}
+  rageAttackButton: {fileID: 1673929001}
+  blockButton: {fileID: 1664791924}
+  parryButton: {fileID: 695994529}
 --- !u!114 &338648444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2285,6 +2303,8 @@ GameObject:
   - component: {fileID: 695994526}
   - component: {fileID: 695994525}
   - component: {fileID: 695994528}
+  - component: {fileID: 695994530}
+  - component: {fileID: 695994529}
   m_Layer: 5
   m_Name: ParryBtn
   m_TagString: Untagged
@@ -2355,19 +2375,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 695994526}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1522912821}
-        m_TargetAssemblyTypeName: PlayerParry, Assembly-CSharp
-        m_MethodName: OnParryButtonPressed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &695994526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2418,6 +2426,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b2e79e4ccd46a49870159c4a324c46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &695994529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695994523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53477026b93cb6a4897e1d9771aee277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressedScale: 0.9
+  pressDuration: 0.08
+  releaseDuration: 0.2
+  disabledAlpha: 0.4
+  enabledAlpha: 1
+  shakeStrength: 10
+  shakeDuration: 0.25
+--- !u!225 &695994530
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695994523}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &729833959
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,7 +2494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 67.75, y: 46.600006}
+  m_AnchoredPosition: {x: 89.14996, y: 46.600006}
   m_SizeDelta: {x: -135.5, y: 78.607}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729833961
@@ -3284,7 +3323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1, y: 0.2}
   m_AnchorMax: {x: 0.3, y: 0.4}
-  m_AnchoredPosition: {x: -149.4, y: -23.4}
+  m_AnchoredPosition: {x: -136, y: -23.4}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1098546089
@@ -3666,6 +3705,8 @@ GameObject:
   - component: {fileID: 1251939557}
   - component: {fileID: 1251939556}
   - component: {fileID: 1251939555}
+  - component: {fileID: 1251939559}
+  - component: {fileID: 1251939558}
   m_Layer: 5
   m_Name: HeavyAttackBtn
   m_TagString: Untagged
@@ -3787,6 +3828,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251939553}
   m_CullTransparentMesh: 1
+--- !u!114 &1251939558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251939553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53477026b93cb6a4897e1d9771aee277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressedScale: 0.9
+  pressDuration: 0.08
+  releaseDuration: 0.2
+  disabledAlpha: 0.4
+  enabledAlpha: 1
+  shakeStrength: 10
+  shakeDuration: 0.25
+--- !u!225 &1251939559
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251939553}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1285182174
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,8 +4580,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1472659300}
+  - component: {fileID: 1472659301}
   m_Layer: 5
-  m_Name: SkipPanel
+  m_Name: BlockPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4535,6 +4608,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1472659301
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472659299}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1481526054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4619,6 +4704,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1497284091}
+  - component: {fileID: 1497284092}
   m_Layer: 5
   m_Name: LightAttackPanel
   m_TagString: Untagged
@@ -4646,6 +4732,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1497284092
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497284090}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1508439637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4913,6 +5011,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3922765eaeb72f943a0d35cd46c140ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lightAttackButton: {fileID: 2125540370}
+  heavyAttackButton: {fileID: 1251939558}
+  blockButton: {fileID: 1664791924}
+  rageAttackButton: {fileID: 1673929001}
+  parryButton: {fileID: 695994529}
 --- !u!95 &1522912823
 Animator:
   serializedVersion: 7
@@ -5144,8 +5247,10 @@ GameObject:
   - component: {fileID: 1664791923}
   - component: {fileID: 1664791922}
   - component: {fileID: 1664791921}
+  - component: {fileID: 1664791925}
+  - component: {fileID: 1664791924}
   m_Layer: 5
-  m_Name: BlockAttackBtn
+  m_Name: BlockBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5265,6 +5370,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664791919}
   m_CullTransparentMesh: 1
+--- !u!114 &1664791924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664791919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53477026b93cb6a4897e1d9771aee277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressedScale: 0.9
+  pressDuration: 0.08
+  releaseDuration: 0.2
+  disabledAlpha: 0.4
+  enabledAlpha: 1
+  shakeStrength: 10
+  shakeDuration: 0.25
+--- !u!225 &1664791925
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664791919}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1673928996
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,6 +5413,8 @@ GameObject:
   - component: {fileID: 1673929000}
   - component: {fileID: 1673928999}
   - component: {fileID: 1673928998}
+  - component: {fileID: 1673929002}
+  - component: {fileID: 1673929001}
   m_Layer: 5
   m_Name: RageBtn
   m_TagString: Untagged
@@ -5398,6 +5536,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673928996}
   m_CullTransparentMesh: 1
+--- !u!114 &1673929001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673928996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53477026b93cb6a4897e1d9771aee277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressedScale: 0.9
+  pressDuration: 0.08
+  releaseDuration: 0.2
+  disabledAlpha: 0.4
+  enabledAlpha: 1
+  shakeStrength: 10
+  shakeDuration: 0.25
+--- !u!225 &1673929002
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673928996}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1731994450
 GameObject:
   m_ObjectHideFlags: 0
@@ -5788,6 +5957,11 @@ MonoBehaviour:
   actionPointText: {fileID: 1285182176}
   rageText: {fileID: 1230780773}
   parryEnergyText: {fileID: 979021408}
+  lightAttackButton: {fileID: 0}
+  heavyAttackButton: {fileID: 0}
+  rageAttackButton: {fileID: 0}
+  blockButton: {fileID: 0}
+  parryButton: {fileID: 0}
 --- !u!114 &1873711904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6367,6 +6541,8 @@ GameObject:
   - component: {fileID: 2125540369}
   - component: {fileID: 2125540368}
   - component: {fileID: 2125540367}
+  - component: {fileID: 2125540371}
+  - component: {fileID: 2125540370}
   m_Layer: 5
   m_Name: LightAttackBtn
   m_TagString: Untagged
@@ -6488,6 +6664,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125540365}
   m_CullTransparentMesh: 1
+--- !u!114 &2125540370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125540365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53477026b93cb6a4897e1d9771aee277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressedScale: 0.9
+  pressDuration: 0.08
+  releaseDuration: 0.2
+  disabledAlpha: 0.4
+  enabledAlpha: 1
+  shakeStrength: 10
+  shakeDuration: 0.25
+--- !u!225 &2125540371
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125540365}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2145510075
 GameObject:
   m_ObjectHideFlags: 0
