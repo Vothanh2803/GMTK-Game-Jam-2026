@@ -1737,9 +1737,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 446932970}
-  m_Layer: 0
-  m_Name: Enemy
+  - component: {fileID: 487545317}
+  - component: {fileID: 487545318}
+  m_Layer: 5
+  m_Name: ButtonPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1761,7 +1762,26 @@ Transform:
   - {fileID: 916654402}
   m_Father: {fileID: 1077844555}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &447575530
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &487545318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487545316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327e18b2e3eff04289fa30c86743de3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inTurnBtnPanel: {fileID: 460637473}
+  parryTurnBtnPanel: {fileID: 238142502}
+--- !u!1 &545312560
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2366,6 +2386,7 @@ GameObject:
   - component: {fileID: 695994527}
   - component: {fileID: 695994526}
   - component: {fileID: 695994525}
+  - component: {fileID: 695994528}
   m_Layer: 5
   m_Name: ParryBtn
   m_TagString: Untagged
@@ -2436,19 +2457,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 695994526}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1522912821}
-        m_TargetAssemblyTypeName: PlayerParry, Assembly-CSharp
-        m_MethodName: OnParryButtonPressed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &695994526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2487,7 +2496,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695994523}
   m_CullTransparentMesh: 1
---- !u!1 &729833959
+--- !u!114 &695994528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695994523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b2e79e4ccd46a49870159c4a324c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &844458181
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4553,7 +4574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472659300}
   m_Layer: 5
-  m_Name: SkipPanel
+  m_Name: blockPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4841,6 +4862,7 @@ GameObject:
   - component: {fileID: 1522912818}
   - component: {fileID: 1522912817}
   - component: {fileID: 1522912821}
+  - component: {fileID: 1522912822}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4938,6 +4960,18 @@ MonoBehaviour:
   parryCooldown: 0.2
   chargeSpeed: 500
   maxHoldTimeAfterFull: 1
+--- !u!114 &1522912822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522912815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3922765eaeb72f943a0d35cd46c140ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1533992293
 GameObject:
   m_ObjectHideFlags: 0
@@ -5093,7 +5127,7 @@ GameObject:
   - component: {fileID: 1664791922}
   - component: {fileID: 1664791921}
   m_Layer: 5
-  m_Name: BlockAttackBtn
+  m_Name: BlockBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5163,9 +5197,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1522912817}
-        m_TargetAssemblyTypeName: PlayerCombat, Assembly-CSharp
-        m_MethodName: Block
+      - m_Target: {fileID: 1522912818}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnBlock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

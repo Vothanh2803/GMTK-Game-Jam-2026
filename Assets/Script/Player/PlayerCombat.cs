@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     [Header("Attack Cost")]
     [SerializeField] private int lightAttackCost = 2;
     [SerializeField] private int baseHeavyAttackCost = 10;
