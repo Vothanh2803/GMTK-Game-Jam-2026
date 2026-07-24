@@ -47,7 +47,6 @@ public class PlayerCombat : MonoBehaviour
         if (GameManager.Instance.CurrentState != GameState.PlayerTurn) return false;
         if (playerStats == null || playerStats.CurrentRage < playerStats.MaxRage)
         {
-            Debug.Log("Rage chua day");
             return false;
         }
         return true;
