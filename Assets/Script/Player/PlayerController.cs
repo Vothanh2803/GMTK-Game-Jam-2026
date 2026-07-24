@@ -7,8 +7,6 @@ public class PlayerController : MonoBehaviour
     private PlayerRage rage;
     public PlayerStats stats;
 
-    
-
     private void Awake()
     {
         combat = GetComponent<PlayerCombat>();
@@ -30,5 +28,10 @@ public class PlayerController : MonoBehaviour
     public void OnRageAttack()
     {
         combat.RageAttack();
+    }
+
+    public void OnBlock()
+    {
+        combat.Block();
     }
 }

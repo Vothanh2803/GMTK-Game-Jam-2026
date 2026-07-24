@@ -63,6 +63,8 @@ public class EnemyController : MonoBehaviour
 
     private IEnumerator ExecuteCombo(EnemyComboData combo)
     {
+        yield return new WaitForSeconds(0.5f);
+
         transform.position = EnemyManager.Instance.attackPoint.position;
         yield return new WaitForSeconds(delayBeforeCombo);
 
