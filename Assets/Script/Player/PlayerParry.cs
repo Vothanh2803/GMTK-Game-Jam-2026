@@ -14,6 +14,7 @@ public class PlayerParry : MonoBehaviour
     private float currentEnergy = 0f;
     private float overchargeTimer = 0f;
     private bool isCharging = false;
+    private bool isFullChargeParry = false;
 
     public bool isParrying { get; private set; }
     private PlayerController playerController;
@@ -91,6 +92,7 @@ public class PlayerParry : MonoBehaviour
         if (!isCharging) return;
 
         bool isFullCharge = currentEnergy >= 100f;
+        isFullChargeParry = isFullCharge;
         
         isCharging = false;
         currentEnergy = 0f;
@@ -170,6 +172,15 @@ public class PlayerParry : MonoBehaviour
             }
 
             animator.Play("ParrySuccess", 0, 0f);
+
+            if (isFullChargeParry)
+            {
+                if (ParryEffectManager.Instance != null)
+                {
+                    ParryEffectManager.Instance.TriggerFullChargeParrySlowMotion();
+                }
+                Debug.Log("⚡ FULL CHARGE PARRY PERFECT! Slow motion activated!");
+            }
 
             Debug.Log("Gay sat thuong len quai do parry");
         }
