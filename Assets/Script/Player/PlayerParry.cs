@@ -2,11 +2,23 @@ using UnityEngine;
 
 public class PlayerParry : MonoBehaviour
 {
+    [Header("Parry Cooldown Settings")]
     [SerializeField] private float parryCooldown = 1.5f;
+    private float blockDamageReduction = 0.5f;
     private float currentCooldownTimer = 0f;
+
+    [Header("Energy Parry Settings")]
+    [SerializeField] private float chargeSpeed = 500f;
+    [SerializeField] private float maxHoldTimeAfterFull = 0.4f;
+
+    private float currentEnergy = 0f;
+    private float overchargeTimer = 0f;
+    private bool isCharging = false;
 
     public bool isParrying { get; private set; }
     private PlayerController playerController;
+
+    public float CurrentEnergy => currentEnergy;
 
     private void Start() {
         playerController = GetComponent<PlayerController>();
@@ -20,29 +32,89 @@ public class PlayerParry : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            OnParryButtonPressed();
+            if (GameManager.Instance.CurrentState == GameState.EnemyTurn && currentCooldownTimer <= 0)
+            {
+                isCharging = true;
+                currentEnergy = 0f;
+                overchargeTimer = 0f;
+            }
+            else if (currentCooldownTimer > 0)
+            {
+                Debug.Log("parry cooldown: " + currentCooldownTimer);
+            }
+        }
+
+        if (isCharging && Input.GetKey(KeyCode.F))
+        {
+            if (currentEnergy < 100f)
+            {
+                currentEnergy += chargeSpeed * Time.deltaTime;
+                currentEnergy = Mathf.Clamp(currentEnergy, 0f, 100f);
+
+                if (currentEnergy >= 100f)
+                {
+                    Debug.Log("Thanh nang luong da day");
+                    // TODO về sau: Hieu ung rung thanh nang luong
+                }
+            }
+            else 
+            {
+                overchargeTimer += Time.deltaTime;
+
+                if (overchargeTimer >= maxHoldTimeAfterFull)
+                {
+                    isCharging = false;
+                    currentEnergy = 0f;
+                    isParrying = false;
+                    currentCooldownTimer = parryCooldown;
+                    Debug.Log("parry that bai do thanh nang luong qua tai, vao cooldown");
+                }
+            }
+        }
+
+        if (isCharging && Input.GetKeyUp(KeyCode.F))
+        {
+            bool isFullCharge = currentEnergy >= 100f;
+            
+            isCharging = false;
+            currentEnergy = 0f;
+
+            EvaluateEnergyParry(isFullCharge);
         }
     }
 
-    public void OnParryButtonPressed()
+    private void EvaluateEnergyParry(bool isFullCharge)
     {
         if (GameManager.Instance.CurrentState != GameState.EnemyTurn) return;
 
-        if (currentCooldownTimer > 0)
-        {
-            Debug.Log("parry cooldown: " + currentCooldownTimer);
-            return;
-        }
-
-        bool isWindowOpen = EnemyManager.Instance != null && EnemyManager.Instance.CurrentEnemy.isParryWindowOpen;
+        EnemyController currentEnemy = EnemyManager.Instance != null ? EnemyManager.Instance.CurrentEnemy : null;
+        bool isWindowOpen = currentEnemy != null && currentEnemy.isParryWindowOpen;
 
         if (isWindowOpen)
         {
-            isParrying = true;
-            currentCooldownTimer = 0f;
-            Debug.Log("parry thanh cong!");
-            
-            // TODO: animation parry va VFX,SFX
+            EnemyAttackType enemyAttack = currentEnemy.CurrentAttackType;
+
+            if (!isFullCharge)
+            {
+                if (enemyAttack == EnemyAttackType.lightAttack)
+                {
+                    isParrying = true;
+                    currentCooldownTimer = 0f;
+                    Debug.Log("parry thanh cong!");
+                }
+                else
+                {
+                    isParrying = false;
+                    currentCooldownTimer = parryCooldown;
+                    Debug.Log("parry that bai do quai danh Heavy attack nhung nang luong chua day, vao cooldown");
+                }
+            }
+            else
+            {
+                isParrying = true;
+                currentCooldownTimer = 0f;
+                Debug.Log("parry thanh cong!");
+            }
         }
         else
         {
@@ -50,26 +122,64 @@ public class PlayerParry : MonoBehaviour
             currentCooldownTimer = parryCooldown;
             Debug.Log("parry that bai, vao cooldown");
         }
-
     }
+
+    // public void OnParryButtonPressed()
+    // {
+    //     if (GameManager.Instance.CurrentState != GameState.EnemyTurn) return;
+
+    //     if (currentCooldownTimer > 0)
+    //     {
+    //         Debug.Log("parry cooldown: " + currentCooldownTimer);
+    //         return;
+    //     }
+
+    //     bool isWindowOpen = EnemyManager.Instance != null && 
+    //                         EnemyManager.Instance.CurrentEnemy != null && 
+    //                         EnemyManager.Instance.CurrentEnemy.isParryWindowOpen;
+
+    //     if (isWindowOpen)
+    //     {
+    //         isParrying = true;
+    //         currentCooldownTimer = 0f;
+    //         Debug.Log("parry thanh cong!");
+            
+    //         // TODO: animation parry va VFX,SFX
+    //     }
+    //     else
+    //     {
+    //         isParrying = false;
+    //         currentCooldownTimer = parryCooldown;
+    //         Debug.Log("parry that bai, vao cooldown");
+    //     }
+
+    // }
 
     public void TakeDamageWithParry(float damage)
     {
         if (isParrying)
         {
-            
-            playerController.stats.AddActionPoint(2); 
-            playerController.stats.AddRage(15);
+            playerController.stats.AddRage(5);
 
-            Debug.Log("cong diem");
-            
-            // TODO: add sound va hieu ung parry o day
+            if (EnemyManager.Instance != null)
+            {
+                EnemyManager.Instance.ApplyParryDamagePercent(0.02f);
+            }
+
+            Debug.Log("Gay sat thuong len quai do parry");
         }
         else
         {
-            Debug.Log("parry that bai");
+            float finalDamage = damage;
 
-            playerController.stats.TakeDamage(damage);
+            PlayerCombat combat = playerController.GetComponent<PlayerCombat>();
+            if (combat != null && combat.IsBlocking)
+            {
+                finalDamage *= blockDamageReduction;
+                Debug.Log("Giam sat thuong do do don");
+            }
+
+            playerController.stats.TakeDamage(finalDamage);
 
             if (playerController.stats.CurrentHealth <= 0)
             {
