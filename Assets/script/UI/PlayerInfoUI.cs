@@ -45,7 +45,7 @@ public class PlayerInfoUI : MonoBehaviour
     private void Update()
     {
         UpdateUI();
-        UpdateButtonStates(); // Cập nhật trạng thái mờ/sáng của nút
+        UpdateButtonStates();
     }
 
     public void UpdateUI()
@@ -84,49 +84,38 @@ public class PlayerInfoUI : MonoBehaviour
         bool isPlayerTurn = GameManager.Instance.CurrentState == GameState.PlayerTurn;
         bool isEnemyTurn = GameManager.Instance.CurrentState == GameState.EnemyTurn;
 
-        // --- 1. NÚT LIGHT ATTACK ---
         if (lightAttackButton != null)
         {
-            // Ẩn trong lượt quái, Hiện trong lượt người chơi
             lightAttackButton.SetVisible(isPlayerTurn);
 
-            // Nếu đang ở lượt người chơi thì mới kiểm tra mờ/sáng theo điểm AP
             if (isPlayerTurn)
             {
                 lightAttackButton.SetInteractable(playerCombat.CanLightAttack());
             }
         }
 
-        // --- 2. NÚT HEAVY ATTACK ---
         if (heavyAttackButton != null)
         {
-            // Ẩn trong lượt quái, Hiện trong lượt người chơi
             heavyAttackButton.SetVisible(isPlayerTurn);
 
-            // Nếu đang ở lượt người chơi thì mới kiểm tra mờ/sáng theo điểm AP
             if (isPlayerTurn)
             {
                 heavyAttackButton.SetInteractable(playerCombat.CanHeavyAttack());
             }
         }
 
-        // --- 3. NÚT RAGE ATTACK ---
         if (rageAttackButton != null)
         {
             rageAttackButton.SetInteractable(playerCombat.CanPerformRageAttack());
         }
 
-        // --- 4. NÚT BLOCK ---
         if (blockButton != null)
         {
-            // HIỆN ở Turn Player, ẨN ở Turn Enemy
             blockButton.SetVisible(isPlayerTurn);
         }
 
-        // --- 5. NÚT PARRY ---
         if (parryButton != null)
         {
-            // ẨN ở Turn Player, HIỆN ở Turn Enemy
             parryButton.SetVisible(isEnemyTurn);
         }
     }

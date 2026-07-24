@@ -50,7 +50,6 @@ public class PlayerParry : MonoBehaviour
                 if (currentEnergy >= 100f)
                 {
                     Debug.Log("Thanh nang luong da day");
-                    // TODO về sau: Hieu ung rung thanh nang luong
                 }
             }
             else 
@@ -114,6 +113,13 @@ public class PlayerParry : MonoBehaviour
         currentEnergy = 0f;
         isParrying = false;
         currentCooldownTimer = parryCooldown;
+
+        ParryEnergyBarUI energyBarUI = FindFirstObjectByType<ParryEnergyBarUI>();
+        if (energyBarUI != null)
+        {
+            energyBarUI.TriggerOverchargeFailUI();
+        }
+
         Debug.Log("parry that bai do thanh nang luong qua tai, vao cooldown");
     }
 

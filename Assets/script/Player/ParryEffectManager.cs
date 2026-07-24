@@ -6,21 +6,14 @@ public class ParryEffectManager : MonoBehaviour
     public static ParryEffectManager Instance { get; private set; }
 
     [Header("Camera Shake Settings")]
-    [Tooltip("Kéo Camera chính vào đây (nếu trống script sẽ tự tìm Camera.main)")]
     [SerializeField] private Camera mainCamera;
-    
-    [Tooltip("Độ mạnh của cú giật camera")]
     [SerializeField] private float shakeIntensity = 0.25f;
 
-    [Tooltip("Thời gian rung camera (tính theo giây thực tế)")]
     [SerializeField] private float shakeDuration = 0.15f;
 
     [Header("Full Charge Slow-Motion Settings")]
-    [Tooltip("Tốc độ thời gian khi làm chậm (0.1 = chậm 10 lần)")]
     [Range(0.01f, 1f)]
     [SerializeField] private float slowMotionTimeScale = 0.1f;
-
-    [Tooltip("Thời gian làm chậm tính theo thời gian THỰC tế ngoài đời (giây)")]
     [SerializeField] private float slowMotionDuration = 0.4f;
 
     private Coroutine slowMotionRoutine;
@@ -92,7 +85,7 @@ public class ParryEffectManager : MonoBehaviour
             elapsed += Time.unscaledDeltaTime;
             yield return null;
         }
-        
+
         mainCamera.transform.localPosition = originalCameraPosition;
     }
 

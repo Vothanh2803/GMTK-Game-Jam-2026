@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     [Header("Action Point")]
     [SerializeField] private int maxActionPoint = 10;
     [SerializeField] private int currentActionPoint;

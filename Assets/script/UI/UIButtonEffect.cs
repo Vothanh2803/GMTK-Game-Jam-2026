@@ -8,25 +8,16 @@ using DG.Tweening;
 public class UIButtonEffect : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler
 {
     [Header("Press Animation Settings")]
-    [Tooltip("Tỷ lệ thu nhỏ khi nhấn giữ (0.9 = thu nhỏ 90%)")]
     [SerializeField] private float pressedScale = 0.9f;
-    [Tooltip("Thời gian thu nhỏ khi bấm xuống (giây)")]
     [SerializeField] private float pressDuration = 0.08f;
-    [Tooltip("Thời gian nảy đàn hồi trở lại (giây)")]
     [SerializeField] private float releaseDuration = 0.2f;
 
     [Header("Disabled State Settings")]
-    [Tooltip("Độ mờ khi nút KHÔNG đủ điều kiện bấm (0.4 = mờ 60%)")]
     [Range(0.1f, 1f)]
     [SerializeField] private float disabledAlpha = 0.4f;
-    [Tooltip("Độ mờ khi nút ĐỦ điều kiện bấm")]
     [Range(0.1f, 1f)]
     [SerializeField] private float enabledAlpha = 1f;
-
-    [Header("Denied Shake Settings (Khi cố bấm nút đang mờ)")]
-    [Tooltip("Độ lắc khi cố bấm nút bị khóa")]
     [SerializeField] private float shakeStrength = 10f;
-    [Tooltip("Thời gian lắc (giây)")]
     [SerializeField] private float shakeDuration = 0.25f;
 
     private Button button;
@@ -48,7 +39,7 @@ public class UIButtonEffect : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 
     public void SetInteractable(bool interactable)
     {
-        if (!IsVisible) return; // Nếu nút đang bị ẨN thì không xử lý mờ sáng
+        if (!IsVisible) return;
 
         IsInteractable = interactable;
         button.interactable = interactable;
@@ -67,7 +58,6 @@ public class UIButtonEffect : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 
         if (visible)
         {
-            // Hiện nút lên
             gameObject.SetActive(true);
             canvasGroup.alpha = 0f;
             IsInteractable = true;
@@ -77,7 +67,6 @@ public class UIButtonEffect : MonoBehaviour, IPointerDownHandler, IPointerUpHand
         }
         else
         {
-            // Ẩn nút đi
             IsInteractable = false;
             button.interactable = false;
 
