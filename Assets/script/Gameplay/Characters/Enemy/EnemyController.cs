@@ -39,6 +39,12 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    public void TakePercentDamage(float percent)
+    {
+        float damageAmount = MaxHP * percent;
+        TakeDamage(damageAmount);
+    }
+
     public void Die()
     {
         OnEnemyDeath?.Invoke();

@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerParry : MonoBehaviour
 {
     [SerializeField] private float parryCooldown = 1.5f;
+    private float blockDamageReduction = 0.5f;
     private float currentCooldownTimer = 0f;
 
     public bool isParrying { get; private set; }
@@ -34,7 +35,9 @@ public class PlayerParry : MonoBehaviour
             return;
         }
 
-        bool isWindowOpen = EnemyManager.Instance != null && EnemyManager.Instance.CurrentEnemy.isParryWindowOpen;
+        bool isWindowOpen = EnemyManager.Instance != null && 
+                            EnemyManager.Instance.CurrentEnemy != null && 
+                            EnemyManager.Instance.CurrentEnemy.isParryWindowOpen;
 
         if (isWindowOpen)
         {
@@ -57,19 +60,27 @@ public class PlayerParry : MonoBehaviour
     {
         if (isParrying)
         {
-            
-            playerController.stats.AddActionPoint(2); 
-            playerController.stats.AddRage(15);
+            playerController.stats.AddRage(5);
 
-            Debug.Log("cong diem");
-            
-            // TODO: add sound va hieu ung parry o day
+            if (EnemyManager.Instance != null)
+            {
+                EnemyManager.Instance.ApplyParryDamagePercent(0.02f);
+            }
+
+            Debug.Log("Gay sat thuong len quai do parry");
         }
         else
         {
-            Debug.Log("parry that bai");
+            float finalDamage = damage;
 
-            playerController.stats.TakeDamage(damage);
+            PlayerCombat combat = playerController.GetComponent<PlayerCombat>();
+            if (combat != null && combat.IsBlocking)
+            {
+                finalDamage *= blockDamageReduction;
+                Debug.Log("Giam sat thuong do do don");
+            }
+
+            playerController.stats.TakeDamage(finalDamage);
 
             if (playerController.stats.CurrentHealth <= 0)
             {

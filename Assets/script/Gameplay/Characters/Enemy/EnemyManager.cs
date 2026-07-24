@@ -32,6 +32,11 @@ public class EnemyManager : MonoBehaviour
             return;
         }
 
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.ResetAVSpeedForNewEnemy();
+        }
+
         EnemyData enemyData = levelData.enemyList[enemyIndex];
 
         GameObject spawnedGO = Instantiate(enemyData.enemyPrefab, spawnPoint.position, spawnPoint.rotation);
@@ -66,6 +71,14 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
+    public void ApplyParryDamagePercent(float percent)
+    {
+        if (currentEnemy != null)
+        {
+            currentEnemy.TakePercentDamage(percent);
+        }
+    }
+
     private void HandleEnemyDeath()
     {
         if (currentEnemy != null)
@@ -81,6 +94,6 @@ public class EnemyManager : MonoBehaviour
     private void HandleEnemyTurnCompleted()
     {
         Debug.Log("combo done!");
-        GameManager.Instance.ChangeState(GameState.PlayerTurn);
+        GameManager.Instance.OnEnemyTurnCompleted();
     }
 }

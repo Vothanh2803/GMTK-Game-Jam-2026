@@ -993,6 +993,9 @@ MonoBehaviour:
   currentState: 0
   player: {fileID: 1522912818}
   enemy: {fileID: 2145510077}
+  initialAvInterval: 2
+  minAvInterval: 0.5
+  avIntervalStep: 0.2
 --- !u!1 &343728012
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,7 +3047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skip
+  m_text: Block
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3173,8 +3176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35595d275758a694eb20da23564ba1ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightAttackCost: 2
-  heavyAttackCost: 4
+  lightAttackCost: 10
+  baseHeavyAttackCost: 15
+  heavyCostIncrement: 5
 --- !u!114 &1522912818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3213,7 +3217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94430e73f68e67d4194f286e06d6f471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxActionPoint: 10
+  maxActionPoint: 100
   currentActionPoint: 0
   maxRage: 100
   currentRage: 0
@@ -3352,7 +3356,7 @@ GameObject:
   - component: {fileID: 1664791922}
   - component: {fileID: 1664791921}
   m_Layer: 5
-  m_Name: SkipAttackBtn
+  m_Name: BlockAttackBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3424,7 +3428,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1522912817}
         m_TargetAssemblyTypeName: PlayerCombat, Assembly-CSharp
-        m_MethodName: SkipTurn
+        m_MethodName: Block
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
