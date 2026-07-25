@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    [SerializeField] private string gameplayScene = "Gameplay";
+    //[SerializeField] private string gameplayScene = "Gameplay";
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(gameplayScene);
+        SceneController.Instance.PlayGame();
     }
 
     public void QuitGame()
@@ -15,7 +15,7 @@ public class MenuManager : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-        Application.Quit();
+        SceneController.Instance.QuitGame();
 #endif
     }
 }

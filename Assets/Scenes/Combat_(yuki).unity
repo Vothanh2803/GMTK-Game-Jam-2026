@@ -1412,7 +1412,6 @@ GameObject:
   m_Component:
   - component: {fileID: 338648441}
   - component: {fileID: 338648442}
-  - component: {fileID: 338648446}
   - component: {fileID: 338648443}
   - component: {fileID: 338648444}
   - component: {fileID: 338648445}
@@ -1456,6 +1455,8 @@ MonoBehaviour:
   initialAvInterval: 2
   minAvInterval: 0.5
   avIntervalStep: 0.2
+  delayBeforeChangeScene: 1.5
+  menuSceneName: Menu_(yuki)
 --- !u!114 &338648443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1514,20 +1515,6 @@ MonoBehaviour:
   holdDuration: 0.3
   recoverDuration: 0.25
   recoverEasePower: 3
---- !u!114 &338648446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338648440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70cc26b6ca1c7dc44b3de6f935ec77e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundAudioSource: {fileID: 0}
-  bgmList: []
 --- !u!1 &341176137
 GameObject:
   m_ObjectHideFlags: 0

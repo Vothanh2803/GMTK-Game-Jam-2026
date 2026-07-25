@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,6 +21,10 @@ public class GameManager : MonoBehaviour
     private float avTimer = 0f;
     private int playerTurnCount = 0;
     private bool isLastTurn = false;
+
+    [Header("Endgame setting")]
+    [SerializeField] private float delayBeforeChangeScene = 2.0f;
+    [SerializeField] private string menuSceneName = "Menu";
 
     public GameState CurrentState => currentState;
 
@@ -162,12 +167,27 @@ public class GameManager : MonoBehaviour
     private void HandleWinState()
     {
         Debug.Log("Win State");
+        StartCoroutine(EndGameSequence());
     }
+
 
     private void HandleLoseState()
     {
         Debug.Log("YOU LOSE!");
+        StartCoroutine(EndGameSequence());
+    }
+
+    private IEnumerator EndGameSequence()
+    {
+        yield return new WaitForSeconds(0.75f);
         Time.timeScale = 0f;
+
+        yield return new WaitForSecondsRealtime(delayBeforeChangeScene);
+        
+        if (SceneController.Instance != null)
+        {
+            SceneController.Instance.ChangeScene(menuSceneName);
+        }
     }
 
     public void SendAttack(string targetName, float damage)

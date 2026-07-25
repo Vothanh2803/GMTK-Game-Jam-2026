@@ -8,7 +8,7 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] public Transform spawnPoint;
     [SerializeField] public Transform attackPoint;
 
-    [SerializeField] private EnemyController currentEnemy;
+    private EnemyController currentEnemy;
     private int enemyIndex = 0;
 
     public EnemyController CurrentEnemy => currentEnemy;
