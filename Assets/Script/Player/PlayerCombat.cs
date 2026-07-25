@@ -10,6 +10,7 @@ public class PlayerCombat : MonoBehaviour
     private int currentHeavyCost;    
     private PlayerStats playerStats;
     private PlayerController playerController;
+    private PlayerSFXController sfxController;
 
     public bool IsBlocking { get; private set; } = false;
 
@@ -17,6 +18,7 @@ public class PlayerCombat : MonoBehaviour
     {
         playerStats = GetComponent<PlayerStats>();
         playerController = GetComponent<PlayerController>();
+        sfxController = GetComponent<PlayerSFXController>();
         currentHeavyCost = baseHeavyAttackCost;
     }
 
@@ -96,6 +98,8 @@ public class PlayerCombat : MonoBehaviour
 
         IsBlocking = true;
         Debug.Log("Do don");
+
+        sfxController.PlayBlockSound();
 
         if (GameManager.Instance.CurrentState != GameState.Win && GameManager.Instance.CurrentState != GameState.Lose)
             GameManager.Instance.ChangeState(GameState.EnemyTurn);
