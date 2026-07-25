@@ -13,27 +13,27 @@ public class PlayerSFXController : MonoBehaviour
 
     public void PlayLightAttackSound()
     {
-        if (parryHeavySound != null) lightAttackSound.PlaySound();
+        if (lightAttackSound != null) lightAttackSound.PlaySound();
     }
 
     public void PlayHeavyAttackSound()
     {
-        if (parryHeavySound != null) heavyAttackSound.PlaySound();
+        if (heavyAttackSound != null) heavyAttackSound.PlaySound();
     }
 
     public void PlayRageAttackSound()
     {
-        if (parryHeavySound != null) rageAttackSound.PlaySound();
+        if (rageAttackSound != null) rageAttackSound.PlaySound();
     }
 
     public void PlayBlockSound()
     {
-        if (parryHeavySound != null) blockSound.PlaySound();
+        if (blockSound != null) blockSound.PlaySound();
     }
 
     public void PlayHurtSound()
     {
-        if (parryHeavySound != null) hurtSound.PlaySound();
+        if (hurtSound != null) hurtSound.PlaySound();
     }
 
     public void PlayParryHeavySound()

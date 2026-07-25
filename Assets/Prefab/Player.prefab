@@ -202,7 +202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2024657540217023185}
   m_Layer: 0
-  m_Name: SFX
+  m_Name: PlayerSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92a40ee9257a0dc44ab3792f98d374f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioFile: {fileID: 0}
+  AudioFile: {fileID: 8300000, guid: 37fa456871301e647b956ea5ee121822, type: 3}
   Volume: 1
   MinPitch: 0.95
   MaxPitch: 1.05
@@ -482,11 +482,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1519132133bcb74ab2714661d248677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightAttackSound: {fileID: 0}
-  heavyAttackSound: {fileID: 0}
-  rageAttackSound: {fileID: 0}
-  blockSound: {fileID: 0}
-  hurtSound: {fileID: 0}
+  lightAttackSound: {fileID: 6591380645705094629}
+  heavyAttackSound: {fileID: 7653899581690621458}
+  rageAttackSound: {fileID: 7971902506125026990}
+  blockSound: {fileID: 3092455532476172647}
+  hurtSound: {fileID: 3933306946092096654}
   parryHeavySound: {fileID: 63212646555283898}
   parryLightSound: {fileID: 1966790595240908079}
 --- !u!95 &6708755599293844496
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92a40ee9257a0dc44ab3792f98d374f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioFile: {fileID: 0}
+  AudioFile: {fileID: 8300000, guid: f18a82c942b95b0438611eb983367dfe, type: 3}
   Volume: 1
   MinPitch: 0.95
   MaxPitch: 1.05

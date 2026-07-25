@@ -150,17 +150,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &35509864 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7971902506125026990, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-  m_PrefabInstance: {fileID: 815580029}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a40ee9257a0dc44ab3792f98d374f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &36658130
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,17 +384,6 @@ MonoBehaviour:
   virtualDelay: 0.4
   virtualFillDuration: 0.5
   punchStrength: 0.12
---- !u!114 &115863518 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3933306946092096654, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-  m_PrefabInstance: {fileID: 815580029}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a40ee9257a0dc44ab3792f98d374f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &116375556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,7 +2238,7 @@ MonoBehaviour:
   playerParry: {fileID: 0}
   fillImage: {fileID: 916390566}
   canvasGroup: {fileID: 509856046}
-  holdThreshold: 0.1
+  holdThreshold: 0.225
   shakeStrength: 2
   shakeVibrato: 5
   fadeInDuration: 0.05
@@ -2278,17 +2256,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &516533168 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3092455532476172647, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-  m_PrefabInstance: {fileID: 815580029}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a40ee9257a0dc44ab3792f98d374f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &523420565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,26 +2778,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5702966947152811463, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-      propertyPath: hurtSound
+    - target: {fileID: 6112387532237518637, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
+      propertyPath: chargeSpeed
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6591380645705094629, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
+      propertyPath: AudioFile
       value: 
-      objectReference: {fileID: 115863518}
-    - target: {fileID: 5702966947152811463, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-      propertyPath: blockSound
-      value: 
-      objectReference: {fileID: 516533168}
-    - target: {fileID: 5702966947152811463, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-      propertyPath: rageAttackSound
-      value: 
-      objectReference: {fileID: 35509864}
-    - target: {fileID: 5702966947152811463, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-      propertyPath: heavyAttackSound
-      value: 
-      objectReference: {fileID: 1463024842}
-    - target: {fileID: 5702966947152811463, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-      propertyPath: lightAttackSound
-      value: 
-      objectReference: {fileID: 1846767871}
+      objectReference: {fileID: 8300000, guid: 5e2d61504029df949ab500acfc68d2c9, type: 3}
     - target: {fileID: 7159808953477538853, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.67
@@ -2871,6 +2826,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7653899581690621458, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
+      propertyPath: AudioFile
+      value: 
+      objectReference: {fileID: 8300000, guid: 27ce94304c9d2f7458e1e49b767cd69f, type: 3}
+    - target: {fileID: 7971902506125026990, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
+      propertyPath: AudioFile
+      value: 
+      objectReference: {fileID: 8300000, guid: 1902fc290c404eb44990a839c6b3bb7b, type: 3}
     - target: {fileID: 8386862058992658530, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
       propertyPath: blockButton
       value: 
@@ -4205,7 +4168,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1368817015}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: OnHeavyAttack
         m_Mode: 1
@@ -5009,17 +4972,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460765378}
   m_CullTransparentMesh: 1
---- !u!114 &1463024842 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7653899581690621458, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-  m_PrefabInstance: {fileID: 815580029}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a40ee9257a0dc44ab3792f98d374f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1472659299
 GameObject:
   m_ObjectHideFlags: 0
@@ -5521,9 +5473,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlayerCombat, Assembly-CSharp
-        m_MethodName: Block
+      - m_Target: {fileID: 1368817015}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnBlock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5687,7 +5639,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1368817015}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: OnRageAttack
         m_Mode: 1
@@ -5877,7 +5829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.2}
   m_AnchorMax: {x: 1, y: 0.8}
-  m_AnchoredPosition: {x: -3.5000153, y: 0}
+  m_AnchoredPosition: {x: -3.5000305, y: 0}
   m_SizeDelta: {x: -7, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1773853452
@@ -6096,17 +6048,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1846767871 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6591380645705094629, guid: 2b6d86d7dab8df54082abe6c7fe590db, type: 3}
-  m_PrefabInstance: {fileID: 815580029}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a40ee9257a0dc44ab3792f98d374f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1873711901
 GameObject:
   m_ObjectHideFlags: 0
@@ -6862,7 +6803,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1368817015}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: OnLightAttack
         m_Mode: 1
