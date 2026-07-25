@@ -17,12 +17,14 @@ public class PlayerParry : MonoBehaviour
     private bool isFullChargeParry = false;
 
     public bool isParrying { get; private set; }
+    
     private PlayerController playerController;
-
+    private PlayerSFXController sfxController;
     public float CurrentEnergy => currentEnergy;
 
     private void Start() {
         playerController = GetComponent<PlayerController>();
+        sfxController = GetComponent<PlayerSFXController>();
     }
 
     private void Update() {
@@ -185,6 +187,12 @@ public class PlayerParry : MonoBehaviour
                 {
                     ParryEffectManager.Instance.TriggerFullChargeParrySlowMotion();
                 }
+
+                sfxController.PlayParryHeavySound();
+            }
+            else
+            {
+                sfxController.PlayParryLightSound();
             }
 
             Debug.Log("Gay sat thuong len quai do parry");
@@ -202,7 +210,6 @@ public class PlayerParry : MonoBehaviour
 
             playerController.stats.TakeDamage(finalDamage);
 
-            // animator.SetTrigger("Hurt");
             animator.Play("hurt", 0, 0f);
 
             if (playerController.stats.CurrentHealth <= 0)

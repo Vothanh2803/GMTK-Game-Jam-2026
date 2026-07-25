@@ -5,9 +5,9 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     private PlayerCombat combat;
-    public PlayerParry parry;
+    [HideInInspector] public PlayerParry parry;
     private PlayerRage rage;
-    public PlayerStats stats;
+    [HideInInspector] public PlayerStats stats;
     private Animator animator;
     
     [Header("Position Settings")]
@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float delayBeforeAttack = 0.5f;
 
     private bool isHitFinished = true; 
-    public bool isAttackedThisTurn = false;
+    [HideInInspector] public bool isAttackedThisTurn = false;
 
     private void Awake()
     {
