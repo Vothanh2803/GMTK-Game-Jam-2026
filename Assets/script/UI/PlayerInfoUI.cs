@@ -68,7 +68,7 @@ public class PlayerInfoUI : MonoBehaviour
         if (rageBar != null) rageBar.UpdateBar(stats.CurrentRage, stats.MaxRage);
 
         if (healthText != null) healthText.text = $"HP: {stats.CurrentHealth} / {stats.MaxHealth}";
-        if (actionPointText != null) actionPointText.text = $"AP: {stats.CurrentActionPoint} / {stats.MaxActionPoint}";
+        if (actionPointText != null) actionPointText.text = $"Action Value: {stats.CurrentActionPoint} / {stats.MaxActionPoint}";
         if (rageText != null) rageText.text = $"Rage: {stats.CurrentRage} / {stats.MaxRage}";
 
         if (playerParry != null && parryEnergyText != null)
