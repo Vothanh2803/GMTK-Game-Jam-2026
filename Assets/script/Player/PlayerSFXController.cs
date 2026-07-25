@@ -7,7 +7,6 @@ public class PlayerSFXController : MonoBehaviour
     [SerializeField] private SoundFeedback heavyAttackSound;
     [SerializeField] private SoundFeedback rageAttackSound; 
     [SerializeField] private SoundFeedback blockSound;
-    [SerializeField] private SoundFeedback hurtSound; 
     [SerializeField] private SoundFeedback parryHeavySound; 
     [SerializeField] private SoundFeedback parryLightSound; 
 
@@ -30,12 +29,7 @@ public class PlayerSFXController : MonoBehaviour
     {
         if (blockSound != null) blockSound.PlaySound();
     }
-
-    public void PlayHurtSound()
-    {
-        if (hurtSound != null) hurtSound.PlaySound();
-    }
-
+    
     public void PlayParryHeavySound()
     {
         if (parryHeavySound != null) parryHeavySound.PlaySound();

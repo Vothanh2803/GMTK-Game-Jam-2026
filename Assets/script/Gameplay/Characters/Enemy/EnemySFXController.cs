@@ -5,7 +5,6 @@ public class EnemySFXController : MonoBehaviour
     [Header("SFX")]
     [SerializeField] private SoundFeedback lightAttackSound;
     [SerializeField] private SoundFeedback heavyAttackSound;    
-    [SerializeField] private SoundFeedback hurtSound; 
 
     public void PlayLightAttackSound()
     {
@@ -17,8 +16,4 @@ public class EnemySFXController : MonoBehaviour
         if (heavyAttackSound != null) heavyAttackSound.PlaySound();
     }
 
-    public void PlayHurtSound()
-    {
-        if (hurtSound != null) hurtSound.PlaySound();
-    }
 }
