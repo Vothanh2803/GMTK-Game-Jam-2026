@@ -1,35 +1,48 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
-    
+
     [SerializeField] private AudioSource backgroundAudioSource;
-    public AudioClip[] bgmList;
-    private int currentMusicIndex = 0;
 
     private const string BGM_VOLUME_KEY = "BGM_Volume_Save";
     private float currentBgmVolume = 1f;
-    private float currentSfxVolume = 1f; 
+    private float currentSfxVolume = 1f;
 
     private GameObject sfxPrefab;
+    
+    private SceneBGM.BGMTrack[] currentSceneBgmList;
+    private int lastPlayedIndex = -1;
+    private Coroutine bgmLoopCoroutine;
 
     private void Awake()
     {
-        if (Instance == null) 
-        { 
-            Instance = this; 
+        if (Instance == null)
+        {
+            Instance = this;
             DontDestroyOnLoad(gameObject);
+
+            if (backgroundAudioSource == null)
+            {
+                backgroundAudioSource = GetComponent<AudioSource>();
+                if (backgroundAudioSource == null)
+                {
+                    backgroundAudioSource = gameObject.AddComponent<AudioSource>();
+                }
+            }
 
             sfxPrefab = new GameObject("SFX_Prefab");
             sfxPrefab.AddComponent<AudioSource>();
             sfxPrefab.SetActive(false);
             DontDestroyOnLoad(sfxPrefab);
         }
-        else 
+        else
         {
             Destroy(gameObject);
+            return;
         }
 
         LoadVolume();
@@ -40,38 +53,93 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        AudioListener.volume = 1f; 
-        PlayMusic(currentMusicIndex);
+        AudioListener.volume = 1f;
+        CheckAndPlaySceneBGM();
     }
 
     private void OnSceneChange(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name.ToLower() == "endingscene")
+        CheckAndPlaySceneBGM();
+    }
+
+    private void CheckAndPlaySceneBGM()
+    {
+        SceneBGM sceneBGM = FindFirstObjectByType<SceneBGM>();
+
+        if (sceneBGM != null && sceneBGM.bgmList != null && sceneBGM.bgmList.Length > 0)
         {
-            StopMusic();
+            currentSceneBgmList = sceneBGM.bgmList;
+            lastPlayedIndex = -1;
+
+            StartBgmPlaylist();
         }
         else
         {
-            if (!backgroundAudioSource.isPlaying)
+            StopMusic();
+        }
+    }
+
+    private void StartBgmPlaylist()
+    {
+        if (bgmLoopCoroutine != null)
+        {
+            StopCoroutine(bgmLoopCoroutine);
+        }
+        bgmLoopCoroutine = StartCoroutine(PlayRandomBgmRoutine());
+    }
+
+    private IEnumerator PlayRandomBgmRoutine()
+    {
+        while (currentSceneBgmList != null && currentSceneBgmList.Length > 0)
+        {
+            int randomIndex = GetRandomClipIndex();
+            lastPlayedIndex = randomIndex;
+
+            SceneBGM.BGMTrack trackToPlay = currentSceneBgmList[randomIndex];
+
+            if (trackToPlay.clip != null)
             {
-                PlayMusic(currentMusicIndex);
+                backgroundAudioSource.clip = trackToPlay.clip;
+                backgroundAudioSource.loop = false;
+                
+                backgroundAudioSource.volume = trackToPlay.baseVolume * currentBgmVolume;
+                backgroundAudioSource.Play();
+
+                yield return new WaitForSecondsRealtime(trackToPlay.clip.length);
+            }
+            else
+            {
+                yield return null;
             }
         }
     }
 
-    public void PlayMusic(int index)
+    private int GetRandomClipIndex()
     {
-        if (index < 0 || index >= bgmList.Length) return;
-        currentMusicIndex = index;
-        backgroundAudioSource.clip = bgmList[index];
-        backgroundAudioSource.loop = true;
-        backgroundAudioSource.volume = currentBgmVolume;
-        backgroundAudioSource.Play();
+        if (currentSceneBgmList.Length == 1) return 0;
+
+        int randomIndex = Random.Range(0, currentSceneBgmList.Length);
+
+        while (randomIndex == lastPlayedIndex)
+        {
+            randomIndex = Random.Range(0, currentSceneBgmList.Length);
+        }
+
+        return randomIndex;
     }
 
     public void StopMusic()
     {
-        backgroundAudioSource.Stop();
+        if (bgmLoopCoroutine != null)
+        {
+            StopCoroutine(bgmLoopCoroutine);
+            bgmLoopCoroutine = null;
+        }
+        if (backgroundAudioSource != null)
+        {
+            backgroundAudioSource.Stop();
+        }
+        currentSceneBgmList = null;
     }
 
     public void IncreaseVolume()
@@ -88,7 +156,15 @@ public class AudioManager : MonoBehaviour
 
     private void UpdateSourceVolume()
     {
-        backgroundAudioSource.volume = currentBgmVolume;
+        if (backgroundAudioSource != null && lastPlayedIndex >= 0 && currentSceneBgmList != null && lastPlayedIndex < currentSceneBgmList.Length)
+        {
+            backgroundAudioSource.volume = currentSceneBgmList[lastPlayedIndex].baseVolume * currentBgmVolume;
+        }
+        else if (backgroundAudioSource != null)
+        {
+            backgroundAudioSource.volume = currentBgmVolume;
+        }
+
         PlayerPrefs.SetFloat(BGM_VOLUME_KEY, currentBgmVolume);
         PlayerPrefs.Save();
     }
@@ -96,20 +172,14 @@ public class AudioManager : MonoBehaviour
     private void LoadVolume()
     {
         currentBgmVolume = PlayerPrefs.GetFloat(BGM_VOLUME_KEY, 1f);
-        backgroundAudioSource.volume = currentBgmVolume;
-    }
-
-    public void NextMusic()
-    {
-        currentMusicIndex++;
-        if (currentMusicIndex >= bgmList.Length) currentMusicIndex = 0;
-        PlayMusic(currentMusicIndex);
+        if (backgroundAudioSource != null)
+            backgroundAudioSource.volume = currentBgmVolume;
     }
 
     public string GetCurrentMusicName()
     {
-        if (bgmList.Length == 0) return "No Music";
-        return bgmList[currentMusicIndex].name;
+        if (backgroundAudioSource == null || backgroundAudioSource.clip == null) return "No Music";
+        return backgroundAudioSource.clip.name;
     }
 
     public void PlaySFX(AudioClip clip, float volume, float pitch)

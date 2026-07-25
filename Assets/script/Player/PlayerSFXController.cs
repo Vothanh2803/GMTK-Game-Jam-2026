@@ -37,7 +37,7 @@ public class PlayerSFXController : MonoBehaviour
 
     public void PlayParryLightSound()
     {
-        if (parryHeavySound != null) parryLightSound.PlaySound();
+        if (parryLightSound != null) parryLightSound.PlaySound();
     }
 
     
