@@ -62,6 +62,11 @@ public class GameManager : MonoBehaviour
     //Goi moi khi player hoac enemy ket thuc luot, vd : GameManager.ChangeState(GameState.EnemyTurn);
     public void ChangeState(GameState newState)
     {
+        if (newState == GameState.EnemyTurn && enemy != null && enemy.CurrentEnemy != null && enemy.CurrentEnemy.IsDead)
+        {
+            return;
+        }
+
         currentState = newState;
 
         switch (currentState)
@@ -123,6 +128,12 @@ public class GameManager : MonoBehaviour
 
     public void OnEnemyTurnCompleted()
     {
+        if (enemy != null && (enemy.CurrentEnemy == null || enemy.CurrentEnemy.CurrentHP <= 0))
+        {
+            Debug.Log("Enemy đã chết trong lượt đánh của nó!");
+            return;
+        }
+
         if (isLastTurn)
         {
             if (enemy != null && enemy.CurrentEnemy != null && enemy.CurrentEnemy.CurrentHP > 0)

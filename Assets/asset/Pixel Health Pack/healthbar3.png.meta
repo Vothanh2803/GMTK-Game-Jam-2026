@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 9fcf3578125dd2d4bb9ef38d57e39635
+guid: ee32b88c1fd58e3478850f3904369b75
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6991849013916550155
-    second: Death_0
+      213: -7850566925575537585
+    second: healthbar3_0
   - first:
-      213: -276728812324164698
-    second: Death_1
+      213: 4991481092110707102
+    second: healthbar3_1
   - first:
-      213: 3156895337291164288
-    second: Death_2
+      213: -8565071873229965704
+    second: healthbar3_2
   - first:
-      213: 1400002288684528572
-    second: Death_3
+      213: 2261397339144836717
+    second: healthbar3_3
+  - first:
+      213: -5106547983428987477
+    second: healthbar3_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,89 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Death_0
+      name: healthbar3_0
       rect:
         serializedVersion: 2
-        x: 40
+        x: 11
+        y: 315
+        width: 106
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cb3aba9fe2d0390800000000000000
+      internalID: -7850566925575537585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healthbar3_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 315
+        width: 106
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9966567b9d454540800000000000000
+      internalID: 4991481092110707102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healthbar3_2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 187
+        width: 106
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8763070d280c22980800000000000000
+      internalID: -8565071873229965704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healthbar3_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 191
+        width: 98
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66ddb706e8126f10800000000000000
+      internalID: 2261397339144836717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healthbar3_4
+      rect:
+        serializedVersion: 2
+        x: 15
         y: 63
-        width: 37
-        height: 45
-      alignment: 9
-      pivot: {x: 0.5754468, y: 0.043387856}
+        width: 98
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0449ad32a9080160800000000000000
-      internalID: 6991849013916550155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death_1
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 63
-        width: 45
-        height: 37
-      alignment: 9
-      pivot: {x: 0.5754468, y: 0.04338786}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ab6d428c9cd82cf0800000000000000
-      internalID: -276728812324164698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death_2
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 0
-        width: 51
-        height: 29
-      alignment: 9
-      pivot: {x: 0.5034861, y: 0.04338786}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08aa354559b8fcb20800000000000000
-      internalID: 3156895337291164288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death_3
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 0
-        width: 61
-        height: 11
-      alignment: 9
-      pivot: {x: 0.5174878, y: 0.04338786}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb376cdf9aecd6310800000000000000
-      internalID: 1400002288684528572
+      spriteID: ba55a3b2aa5e129b0800000000000000
+      internalID: -5106547983428987477
       vertices: []
       indices: 
       edges: []
@@ -200,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 27e3b814023fd554db7ab49b888b3ef3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Death_0: 6991849013916550155
-      Death_1: -276728812324164698
-      Death_2: 3156895337291164288
-      Death_3: 1400002288684528572
+      healthbar3_0: -7850566925575537585
+      healthbar3_1: 4991481092110707102
+      healthbar3_2: -8565071873229965704
+      healthbar3_3: 2261397339144836717
+      healthbar3_4: -5106547983428987477
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

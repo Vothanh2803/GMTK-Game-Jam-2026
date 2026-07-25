@@ -17,10 +17,11 @@ public class EnemyController : MonoBehaviour
     public float delayBeforeCombo = 1f;
 
     public EnemyAttackType CurrentAttackType { get; private set; }
+    private bool isDead = false;
+
     public float CurrentHP => currentHP;
-
     public float MaxHP => data != null ? data.HP : 100f;
-
+    public bool IsDead => isDead;
 
     public void Init(EnemyData enemyData)
     {
@@ -55,8 +56,23 @@ public class EnemyController : MonoBehaviour
 
     public void Die()
     {
+        if (isDead) return;
+        isDead = true;
+
+        StopAllCoroutines();
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Death");
+        }
+
+        Debug.Log("Enemy triggering Death animation...");
+    }
+
+    public void OnDeathAnimationComplete()
+    {
         OnEnemyDeath?.Invoke();
-        Destroy(gameObject);
+        this.enabled = false;
     }
 
     public void DoCombo()
