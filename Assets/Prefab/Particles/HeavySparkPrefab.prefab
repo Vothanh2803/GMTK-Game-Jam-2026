@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7798678036355072388}
   - component: {fileID: 1559055889586532596}
   m_Layer: 0
-  m_Name: HeavySpark_strip6_0
+  m_Name: HeavySparkPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

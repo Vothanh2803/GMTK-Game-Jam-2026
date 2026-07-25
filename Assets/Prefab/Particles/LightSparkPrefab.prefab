@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6527935627160264026}
   - component: {fileID: 1254735514509726489}
   m_Layer: 0
-  m_Name: LightSpark_strip6_0
+  m_Name: LightSparkPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
