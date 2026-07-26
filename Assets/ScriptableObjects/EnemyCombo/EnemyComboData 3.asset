@@ -16,9 +16,15 @@ MonoBehaviour:
   - attackType: 1
     damage: 20
     delayNextAttack: 0.5
-  - attackType: 1
-    damage: 20
+  - attackType: 0
+    damage: 10
     delayNextAttack: 0.2
+  - attackType: 0
+    damage: 10
+    delayNextAttack: 0.2
+  - attackType: 0
+    damage: 10
+    delayNextAttack: 1
   - attackType: 1
-    damage: 20
+    damage: 10
     delayNextAttack: 1

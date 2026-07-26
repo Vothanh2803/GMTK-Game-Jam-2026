@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7025183b1c45989469a2a558c391929a, type: 3}
   m_Name: EnemyData
   m_EditorClassIdentifier: 
-  HP: 100
+  HP: 500
   enemyPrefab: {fileID: 495123547150832864, guid: 49e6141721c21fd48bedc5c4967b99b3, type: 3}
   comboList:
+  - {fileID: 11400000, guid: 169d8ece3b4cfc340815e20b27c2091c, type: 2}
   - {fileID: 11400000, guid: 12b00c1ac9bfbab4ca0e7ee42f8fda22, type: 2}
+  - {fileID: 11400000, guid: a79eb1f72318d654fb0e85a23c5daaa1, type: 2}
