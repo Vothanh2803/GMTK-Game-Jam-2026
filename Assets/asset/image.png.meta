@@ -103,13 +103,13 @@ TextureImporter:
       name: image_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 26
-        width: 109
-        height: 22
+        x: 12
+        y: 27
+        width: 104
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 18, y: 9, z: 18, w: 8}
+      border: {x: 5, y: 5, z: 5, w: 5}
       customData: 
       outline: []
       physicsShape: []

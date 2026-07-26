@@ -120,7 +120,7 @@ TextureImporter:
         width: 106
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -142,7 +142,7 @@ TextureImporter:
         width: 106
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,13 +159,13 @@ TextureImporter:
       name: healthbar4_2
       rect:
         serializedVersion: 2
-        x: 11
-        y: 187
-        width: 106
-        height: 22
+        x: 12
+        y: 188
+        width: 104
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
       customData: 
       outline: []
       physicsShape: []
@@ -186,7 +186,7 @@ TextureImporter:
         width: 98
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: healthbar4_4
       rect:
         serializedVersion: 2
-        x: 15
-        y: 63
-        width: 98
-        height: 14
+        x: 16
+        y: 64
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0c95da97f2bf17445b58bc0e1bc6ab04
     internalID: 0
     vertices: []
     indices: 
