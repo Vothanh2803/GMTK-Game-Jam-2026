@@ -2260,7 +2260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86dc8ea2367ccfb4db5700fb8c1118c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutorialPanel: {fileID: 0}
+  tutorialPanel: {fileID: 845452551}
   pages:
   - {fileID: 1758084755}
   prevButton: {fileID: 200042279}
