@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 624f6b687ac93e8418469db334cbccc8
+guid: 43128d55cee51794da3b378bc9a0eb2a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 664995475083414544
-    second: 70sJje_0
+      213: 8757089129386694768
+    second: image-invert_1_0
+  - first:
+      213: -5748645034997083881
+    second: image-invert_1_1
+  - first:
+      213: -5482410258265314290
+    second: image-invert_1_2
+  - first:
+      213: -2658242569091419161
+    second: image-invert_1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -53,7 +62,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -100,23 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 70sJje_0
+      name: image-invert_1_0
       rect:
         serializedVersion: 2
-        x: 646
-        y: 39
-        width: 370
-        height: 223
+        x: 10
+        y: 31
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 11, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01cc69d7cd98a3900800000000000000
-      internalID: 664995475083414544
+      spriteID: 07857878a2e678970800000000000000
+      internalID: 8757089129386694768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-invert_1_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 31
+        width: 237
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7119f2d5cc5b830b0800000000000000
+      internalID: -5748645034997083881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-invert_1_2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 31
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c632bcae09ae3b0800000000000000
+      internalID: -5482410258265314290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-invert_1_3
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 31
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3fb76a7760c1bd0800000000000000
+      internalID: -2658242569091419161
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4dc8d25407e24114893029c2e34a7b5a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      70sJje_0: 664995475083414544
+      image-invert_1_0: 8757089129386694768
+      image-invert_1_1: -5748645034997083881
+      image-invert_1_2: -5482410258265314290
+      image-invert_1_3: -2658242569091419161
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -29,7 +29,7 @@ public class TutorialManager : MonoBehaviour
         if (pages.Count == 0)
             return;
         
-        if (currentPage != pages.Count - 1)
+        if (index != pages.Count - 1)
         {
             closeButton.gameObject.SetActive(false);
         }
@@ -75,6 +75,7 @@ public class TutorialManager : MonoBehaviour
     {
         tutorialPanel.SetActive(true);
         currentPage = 0;
+        ShowPage(currentPage);
     }
 
     public void CloseTutorial()
