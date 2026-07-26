@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: a54e7be4bb658c7469bc7fa465166cbf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2812285683037364164
+    second: pixel_game_font_alphabet_0
+  - first:
+      213: 3782453563663056266
+    second: pixel_game_font_alphabet_1
+  - first:
+      213: -204900008961934258
+    second: pixel_game_font_alphabet_2
+  - first:
+      213: 5013711309865681382
+    second: pixel_game_font_alphabet_3
+  - first:
+      213: -7779932041016305278
+    second: pixel_game_font_alphabet_4
+  - first:
+      213: 709369650163331893
+    second: pixel_game_font_alphabet_5
+  - first:
+      213: 4671254071529709429
+    second: pixel_game_font_alphabet_6
+  - first:
+      213: -4127766369164162664
+    second: pixel_game_font_alphabet_7
+  - first:
+      213: 1078849523097025971
+    second: pixel_game_font_alphabet_8
+  - first:
+      213: 7309493272188706019
+    second: pixel_game_font_alphabet_9
+  - first:
+      213: -7619532631109770302
+    second: pixel_game_font_alphabet_10
+  - first:
+      213: -9164442421922799424
+    second: pixel_game_font_alphabet_11
+  - first:
+      213: -714537174441475566
+    second: pixel_game_font_alphabet_12
+  - first:
+      213: 3213669597271467326
+    second: pixel_game_font_alphabet_13
+  - first:
+      213: 3144961719657814842
+    second: pixel_game_font_alphabet_14
+  - first:
+      213: -1350842107707306499
+    second: pixel_game_font_alphabet_15
+  - first:
+      213: -2709329348987780996
+    second: pixel_game_font_alphabet_16
+  - first:
+      213: -7495668243203273704
+    second: pixel_game_font_alphabet_17
+  - first:
+      213: -1676694866183097843
+    second: pixel_game_font_alphabet_18
+  - first:
+      213: 5205055347146157325
+    second: pixel_game_font_alphabet_19
+  - first:
+      213: -6043238716842660484
+    second: pixel_game_font_alphabet_20
+  - first:
+      213: 9039128969712353829
+    second: pixel_game_font_alphabet_21
+  - first:
+      213: 6658637181498684190
+    second: pixel_game_font_alphabet_22
+  - first:
+      213: 1661870766883291025
+    second: pixel_game_font_alphabet_23
+  - first:
+      213: 6643361053705650352
+    second: pixel_game_font_alphabet_24
+  - first:
+      213: -8135863428178476193
+    second: pixel_game_font_alphabet_25
+  - first:
+      213: 6144646684874991011
+    second: pixel_game_font_alphabet_26
+  - first:
+      213: -644120210063003141
+    second: pixel_game_font_alphabet_27
+  - first:
+      213: 7068201620657490061
+    second: pixel_game_font_alphabet_28
+  - first:
+      213: -3363421349122803872
+    second: pixel_game_font_alphabet_29
+  - first:
+      213: -4170736801456957445
+    second: pixel_game_font_alphabet_30
+  - first:
+      213: 6751044508468560296
+    second: pixel_game_font_alphabet_31
+  - first:
+      213: -8427386196386033478
+    second: pixel_game_font_alphabet_32
+  - first:
+      213: 5665328085269650084
+    second: pixel_game_font_alphabet_33
+  - first:
+      213: 7063000730451499161
+    second: pixel_game_font_alphabet_34
+  - first:
+      213: -1855972359169015740
+    second: pixel_game_font_alphabet_35
+  - first:
+      213: -3213758662543996197
+    second: pixel_game_font_alphabet_36
+  - first:
+      213: -2371719075186448156
+    second: pixel_game_font_alphabet_37
+  - first:
+      213: 7001853101397272525
+    second: pixel_game_font_alphabet_38
+  - first:
+      213: -4202756687522414891
+    second: pixel_game_font_alphabet_39
+  - first:
+      213: 466843741564293480
+    second: pixel_game_font_alphabet_40
+  - first:
+      213: 377496471819416538
+    second: pixel_game_font_alphabet_41
+  - first:
+      213: 1797860643301337380
+    second: pixel_game_font_alphabet_42
+  - first:
+      213: 9146778416652368281
+    second: pixel_game_font_alphabet_43
+  - first:
+      213: -47372010640957682
+    second: pixel_game_font_alphabet_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 333
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfdb58bdee370720800000000000000
+      internalID: 2812285683037364164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 333
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8dfb81d979fd7430800000000000000
+      internalID: 3782453563663056266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 333
+        width: 111
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c7957078c082df0800000000000000
+      internalID: -204900008961934258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 333
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e107ee5fd7449540800000000000000
+      internalID: 5013711309865681382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 333
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2891b8e4701280490800000000000000
+      internalID: -7779932041016305278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 333
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533bd6c30ff28d900800000000000000
+      internalID: 709369650163331893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 289
+        width: 111
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f102524d0a3d040800000000000000
+      internalID: 4671254071529709429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 289
+        width: 113
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8998a2a6b5a37b6c0800000000000000
+      internalID: -4127766369164162664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 289
+        width: 101
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd3c4edce7d8fe00800000000000000
+      internalID: 1078849523097025971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 231
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec5ae85769807560800000000000000
+      internalID: 7309493272188706019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 231
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c36438217bf14690800000000000000
+      internalID: -7619532631109770302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 231
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c065cc2c2c51d080800000000000000
+      internalID: -9164442421922799424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_12
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 231
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212ca92c9347516f0800000000000000
+      internalID: -714537174441475566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 231
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35a6d2d87f399c20800000000000000
+      internalID: 3213669597271467326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 231
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bd764750625ab20800000000000000
+      internalID: 3144961719657814842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_15
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 231
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd47769248d04de0800000000000000
+      internalID: -1350842107707306499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_16
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 231
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c700b0ecf47866ad0800000000000000
+      internalID: -2709329348987780996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_17
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 231
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c41b152790af790800000000000000
+      internalID: -7495668243203273704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d027f6817ee2bb8e0800000000000000
+      internalID: -1676694866183097843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 170
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0de4eab2421c3840800000000000000
+      internalID: 5205055347146157325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7da4bdc76a122ca0800000000000000
+      internalID: -6043238716842660484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_21
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 170
+        width: 65
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522c5a618ef617d70800000000000000
+      internalID: 9039128969712353829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_22
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 170
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13ff63dc3b386c50800000000000000
+      internalID: 6658637181498684190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_23
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 170
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f3fa258a6201710800000000000000
+      internalID: 1661870766883291025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_24
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 170
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b04ac82ea5f13c50800000000000000
+      internalID: 6643361053705650352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_25
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 170
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f538456515b971f80800000000000000
+      internalID: -8135863428178476193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_26
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 170
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5614aaa9b264550800000000000000
+      internalID: 6144646684874991011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_27
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 108
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf17b86e410af07f0800000000000000
+      internalID: -644120210063003141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 108
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d884120dceb471260800000000000000
+      internalID: 7068201620657490061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_29
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 108
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067f1976a1ab251d0800000000000000
+      internalID: -3363421349122803872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_30
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 108
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf752810af09e16c0800000000000000
+      internalID: -4170736801456957445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_31
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 108
+        width: 76
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1ce1e363780bd50800000000000000
+      internalID: 6751044508468560296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_32
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 108
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0516397e8eb0b80800000000000000
+      internalID: -8427386196386033478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_33
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 109
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa9a8a90e94f9e40800000000000000
+      internalID: 5665328085269650084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_34
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 108
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998d2e23eb1d40260800000000000000
+      internalID: 7063000730451499161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_35
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 48
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44089c209f24e36e0800000000000000
+      internalID: -1855972359169015740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_36
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 48
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda0b3d068f6663d0800000000000000
+      internalID: -3213758662543996197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_37
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 48
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e86e782116f51fd0800000000000000
+      internalID: -2371719075186448156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_38
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 48
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7604e5c449b2160800000000000000
+      internalID: 7001853101397272525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 48
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de34d25f0fcca5c0800000000000000
+      internalID: -4202756687522414891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 48
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861dd85d8ef8a7600800000000000000
+      internalID: 466843741564293480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_41
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 48
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad372c28a032d3500800000000000000
+      internalID: 377496471819416538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_42
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 49
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429a1a7cab843f810800000000000000
+      internalID: 1797860643301337380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_43
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 48
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99936cb1282efee70800000000000000
+      internalID: 9146778416652368281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_font_alphabet_44
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 48
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f13754863b75ff0800000000000000
+      internalID: -47372010640957682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixel_game_font_alphabet_0: 2812285683037364164
+      pixel_game_font_alphabet_1: 3782453563663056266
+      pixel_game_font_alphabet_10: -7619532631109770302
+      pixel_game_font_alphabet_11: -9164442421922799424
+      pixel_game_font_alphabet_12: -714537174441475566
+      pixel_game_font_alphabet_13: 3213669597271467326
+      pixel_game_font_alphabet_14: 3144961719657814842
+      pixel_game_font_alphabet_15: -1350842107707306499
+      pixel_game_font_alphabet_16: -2709329348987780996
+      pixel_game_font_alphabet_17: -7495668243203273704
+      pixel_game_font_alphabet_18: -1676694866183097843
+      pixel_game_font_alphabet_19: 5205055347146157325
+      pixel_game_font_alphabet_2: -204900008961934258
+      pixel_game_font_alphabet_20: -6043238716842660484
+      pixel_game_font_alphabet_21: 9039128969712353829
+      pixel_game_font_alphabet_22: 6658637181498684190
+      pixel_game_font_alphabet_23: 1661870766883291025
+      pixel_game_font_alphabet_24: 6643361053705650352
+      pixel_game_font_alphabet_25: -8135863428178476193
+      pixel_game_font_alphabet_26: 6144646684874991011
+      pixel_game_font_alphabet_27: -644120210063003141
+      pixel_game_font_alphabet_28: 7068201620657490061
+      pixel_game_font_alphabet_29: -3363421349122803872
+      pixel_game_font_alphabet_3: 5013711309865681382
+      pixel_game_font_alphabet_30: -4170736801456957445
+      pixel_game_font_alphabet_31: 6751044508468560296
+      pixel_game_font_alphabet_32: -8427386196386033478
+      pixel_game_font_alphabet_33: 5665328085269650084
+      pixel_game_font_alphabet_34: 7063000730451499161
+      pixel_game_font_alphabet_35: -1855972359169015740
+      pixel_game_font_alphabet_36: -3213758662543996197
+      pixel_game_font_alphabet_37: -2371719075186448156
+      pixel_game_font_alphabet_38: 7001853101397272525
+      pixel_game_font_alphabet_39: -4202756687522414891
+      pixel_game_font_alphabet_4: -7779932041016305278
+      pixel_game_font_alphabet_40: 466843741564293480
+      pixel_game_font_alphabet_41: 377496471819416538
+      pixel_game_font_alphabet_42: 1797860643301337380
+      pixel_game_font_alphabet_43: 9146778416652368281
+      pixel_game_font_alphabet_44: -47372010640957682
+      pixel_game_font_alphabet_5: 709369650163331893
+      pixel_game_font_alphabet_6: 4671254071529709429
+      pixel_game_font_alphabet_7: -4127766369164162664
+      pixel_game_font_alphabet_8: 1078849523097025971
+      pixel_game_font_alphabet_9: 7309493272188706019
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

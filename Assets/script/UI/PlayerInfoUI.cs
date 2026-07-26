@@ -16,8 +16,9 @@ public class PlayerInfoUI : MonoBehaviour
     [SerializeField] private TMP_Text actionPointText;
     [SerializeField] private TMP_Text rageText;
     [SerializeField] private TMP_Text parryEnergyText;
+    [SerializeField] private TMP_Text heavyAttackCostText;
 
-    [Header("Button Effects (MỚI)")]
+    [Header("Button Effects")]
     [SerializeField] private UIButtonEffect lightAttackButton;
     [SerializeField] private UIButtonEffect heavyAttackButton;
     [SerializeField] private UIButtonEffect rageAttackButton;
@@ -74,6 +75,11 @@ public class PlayerInfoUI : MonoBehaviour
         if (playerParry != null && parryEnergyText != null)
         {
             parryEnergyText.text = $"Parry Energy: {Mathf.RoundToInt(playerParry.CurrentEnergy)}%";
+        }
+
+        if (playerCombat != null && heavyAttackCostText != null)
+        {
+            heavyAttackCostText.text = $"{playerCombat.CurrentHeavyCost}"; 
         }
     }
 

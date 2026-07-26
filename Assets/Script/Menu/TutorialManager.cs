@@ -15,7 +15,6 @@ public class TutorialManager : MonoBehaviour
     [SerializeField] private Button openButton;
     [SerializeField] private Button closeButton;
 
-
     private int currentPage = 0;
     private void Start()
     {
