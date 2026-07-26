@@ -4,7 +4,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-    private PlayerCombat combat;
+    [HideInInspector] public PlayerCombat combat;
     [HideInInspector] public PlayerParry parry;
     private PlayerRage rage;
     [HideInInspector] public PlayerStats stats;

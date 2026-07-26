@@ -36,7 +36,6 @@ public class ParryEnergyBarUI : MonoBehaviour
     private void Awake()
     {
         if (canvasGroup == null) canvasGroup = GetComponent<CanvasGroup>();
-        originalPosition = transform.localPosition;
 
         if (canvasGroup != null)
         {
@@ -47,6 +46,9 @@ public class ParryEnergyBarUI : MonoBehaviour
 
     private void Start()
     {
+        // 🔴 FIX 1: Lấy originalPosition ở Start() thay vì Awake() để đảm bảo Canvas đã Layout xong
+        originalPosition = transform.localPosition;
+
         if (playerParry == null)
         {
             playerParry = FindFirstObjectByType<PlayerParry>();
@@ -110,7 +112,6 @@ public class ParryEnergyBarUI : MonoBehaviour
     {
         isBarVisible = true;
 
-        // Đặt ngay vạch fill về 0% tại khoảnh khắc hiện lên
         if (fillImage != null) fillImage.fillAmount = 0f;
 
         fadeTween?.Kill();
@@ -129,8 +130,13 @@ public class ParryEnergyBarUI : MonoBehaviour
     private void StartFullEnergyShake()
     {
         isShaking = true;
+        
+        // 🔴 FIX 2: Luôn lưu lại vị trí hiện tại chuẩn trước khi Shake
+        originalPosition = transform.localPosition;
+
         shakeTween?.Kill();
 
+        // 🔴 FIX 3: Dùng DOComplete() / Kill(true) khi hủy Tween rung để DOTween tự trả về vị trí gốc
         shakeTween = transform.DOShakePosition(100f, new Vector3(shakeStrength, shakeStrength, 0), shakeVibrato)
             .SetLoops(-1)
             .SetUpdate(true);
@@ -139,7 +145,13 @@ public class ParryEnergyBarUI : MonoBehaviour
     private void StopFullEnergyShake()
     {
         isShaking = false;
-        shakeTween?.Kill();
+        
+        if (shakeTween != null && shakeTween.IsActive())
+        {
+            // Kill(true) bảo DOTween hoàn tất/trả Transform về vị trí ban đầu trước khi bị ngắt
+            shakeTween.Kill(true); 
+        }
+
         transform.localPosition = originalPosition;
     }
 

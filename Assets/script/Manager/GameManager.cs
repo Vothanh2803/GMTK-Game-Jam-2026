@@ -117,6 +117,7 @@ public class GameManager : MonoBehaviour
         currentAvInterval = Mathf.Max(initialAvInterval - (playerTurnCount - 1) * avIntervalStep, minAvInterval);
         avTimer = 0f;
         player.isAttackedThisTurn = false;
+        player.combat.IsBlocking = false;
 
         Debug.Log($"Player Turn {playerTurnCount} | Tốc độ trừ AV: 1 AV mỗi {currentAvInterval:F1}s");
     }
