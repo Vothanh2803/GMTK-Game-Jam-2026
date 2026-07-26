@@ -4,7 +4,7 @@ public class PlayerParry : MonoBehaviour
 {
     [Header("Parry Cooldown Settings")]
     [SerializeField] private float parryCooldown = 1.5f;
-    private float blockDamageReduction = 0.5f;
+    private float blockDamageReduction = 0.25f;
     private float currentCooldownTimer = 0f;
 
     [Header("Energy Parry Settings")]

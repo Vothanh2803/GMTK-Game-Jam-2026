@@ -53,6 +53,11 @@ public class PlayerController : MonoBehaviour
         if (isAttackedThisTurn) return;
         if (!combat.CanPerformRageAttack()) return;
 
+        if (rage != null) 
+        {
+            rage.UseRage(); 
+        }
+
         isAttackedThisTurn = true;
         StartCoroutine(ExecuteAttackRoutine("RageAttack"));
     }

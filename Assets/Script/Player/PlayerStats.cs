@@ -11,7 +11,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private int currentRage;
 
     [Header("Health")]
-    [SerializeField] private float maxHealth = 100;
+    [SerializeField] private float maxHealth = 500;
     [SerializeField] private float currentHealth;
     public float CurrentHealth => currentHealth;
     public float MaxHealth => maxHealth;

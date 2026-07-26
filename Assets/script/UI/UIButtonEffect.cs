@@ -53,6 +53,9 @@ public class UIButtonEffect : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     {
         if (IsVisible == visible) return;
 
+        if (canvasGroup == null) canvasGroup = GetComponent<CanvasGroup>();
+        if (button == null) button = GetComponent<Button>();
+
         IsVisible = visible;
         fadeTween?.Kill();
 

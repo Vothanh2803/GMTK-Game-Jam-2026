@@ -81,8 +81,8 @@ public class PlayerCombat : MonoBehaviour
 
     public void RageAttack()
     {
-        playerStats.ConsumeRage();
         IsBlocking = false;
+        playerStats.ConsumeRage();
         Debug.Log("Bắt đầu thi triển Rage Attack 3 Hit!");
     }
 
