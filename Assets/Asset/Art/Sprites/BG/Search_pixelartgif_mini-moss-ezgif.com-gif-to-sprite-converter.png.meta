@@ -1,0 +1,4539 @@
+fileFormatVersion: 2
+guid: 864790a2185e0584985d6bca18e0ef0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2520765956168685633
+    second: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 304
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7eaace7b0740dd0800000000000000
+      internalID: -2520765956168685633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0245ae50abc8bd945915aa55ff63f9d6
+      internalID: -1365207452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_2
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c2c3bc99860ef4a8ecb2f76bc49717
+      internalID: -1228233468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_3
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe4979411940fe43a0cb0af33bd0138
+      internalID: 1033503374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_4
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a86b2ebcd402847905ab5432560065
+      internalID: -2004267860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_5
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc514a7481617bf4498ddab897f239ca
+      internalID: 2122317322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_6
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a4d56cd439b704ca0f30fd2a36b6bf
+      internalID: 2050106452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_7
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9034af1bb18a25c48a567de9bbc2fa82
+      internalID: -594800099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_8
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0008dc14e95dcf3409eea0fdbc36f492
+      internalID: -478899371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_9
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff533f6ac1a77f42a697f4b12f4bcc0
+      internalID: -659035447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_10
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dce260dec505649abf59d9687bdcb4
+      internalID: 295553593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_11
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a11e249256f2974881847659650b944
+      internalID: 448192819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_12
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4256
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657a2cede56c4a746837029ec176ad31
+      internalID: -782479406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de8917297dabe744989bb8e349f07a4
+      internalID: 1355029518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec67340fa2480442aa9ac0cca168773
+      internalID: 263114108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_15
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b2d7607929eba42a1f4f549fb03e39
+      internalID: -2094951617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_16
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdc6a8ae95fddf44b84d13673c0684f
+      internalID: -1172897119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_17
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39fe1b822094814e8b611df20370304
+      internalID: -636382214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_18
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21475b1493ca4e146b58b328b3b33322
+      internalID: -1199391690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_19
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b470b6d2ac79a542aa7948250a422ab
+      internalID: 638500576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_20
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab67019f357ddb94fa240efdad7c310a
+      internalID: -1058821056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_21
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ed6bb2b49a303489fbb42dd0f8e6ff
+      internalID: 1212009100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_22
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af826ca250a5fc41ba7ae83e47b8584
+      internalID: 700783776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_23
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a054ec455df45449853fea56818366a
+      internalID: 1898771998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_24
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b144d6704d7c3479e405012edf9866
+      internalID: 454241147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_25
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3952
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fc8b67cfdc4a44cbe5815e5e6dd986
+      internalID: -910599313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5126d33c241309046baa7eec550b34cc
+      internalID: -713440168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_27
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d45b4287fb213a46b59ff9e69668d56
+      internalID: 715118810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_28
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c101db0b4ad2712448428d800e636720
+      internalID: 1092897884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_29
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37056730ec541543a08358015d655bb
+      internalID: -290960126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_30
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fdbbbf1c9740c4ab08be7cc77d606b
+      internalID: -2009546002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_31
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aa0485db205854e9f6ab5d3df69380
+      internalID: -1066803526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_32
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e457468f7ea579418458b4b1199601e
+      internalID: -137313325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_33
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0aaa13e1c904444a99b17928d98cf4
+      internalID: 1941292717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_34
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f891618336f7c542b7c4c9f21e1aed0
+      internalID: -440995410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_35
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26511bad3d25d7e44b4a0bae1d583b79
+      internalID: 714932732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_36
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef280b05884d436498040ef6693ba138
+      internalID: 1856803461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_37
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d9835428bd8b5429cdfc896ee6627c
+      internalID: 694334255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_38
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3648
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ff75f54bf8dd54a8c9d49f8a5429a7
+      internalID: 216618970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb70dede8fe67c4abe5b16c7204b32c
+      internalID: -1147170012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_40
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a885d3b75f2217543a276da21d3212b8
+      internalID: 1550539353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_41
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca8b7142e58cd444adafa46200d1f36
+      internalID: 1272634659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_42
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904b062b9f46d1a4e8d48e8519de3259
+      internalID: -90891141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_43
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa59c980da85753429488c12ce77be1b
+      internalID: 1430850801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_44
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65547a7462505f64cb2599bcbf29c28f
+      internalID: 1092159407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_45
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18706bddb8d4ae43bbf9b03a47ea24d
+      internalID: 24470172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_46
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ed6a6022dcdc143b6d27a5d88fc73c
+      internalID: 1732422833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_47
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe86bd95d2df3e4f8db893a079d7784
+      internalID: 833143462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_48
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f2698eaf7579546ac76c2c50afb33b
+      internalID: -1078706458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_49
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0675d355961eba4abc23da1bd09982e
+      internalID: 975270351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_50
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f39cac130bc4ce43908041d0f076cc8
+      internalID: 400330689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_51
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3344
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a47c2d01f4d184c9301652b7eb1c45
+      internalID: 1437110469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc50e6043e9fb2469b861fa7c674813
+      internalID: -1112199369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_53
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5eb70d8757ac44a862cee0658348c3
+      internalID: 907311382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_54
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90b58d5e28eb9e4e8bc5e2da7ebb5d9
+      internalID: -354773216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_55
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e3a23377985314f8f45419fca268a6
+      internalID: -1396909178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_56
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d693b350399ed245bf7eadf4239171b
+      internalID: 2026135967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_57
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a920cc3b656da63438fbb5b95bd66cdb
+      internalID: -1152715778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_58
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d986dadf43cef44a16c3f2a1cf6b2d
+      internalID: 596661814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_59
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491bee4c90b71c3478a4dc54e0c0729c
+      internalID: 371430488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_60
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042bd58dd007795499826d5b2a17e299
+      internalID: -772760174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_61
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6841ce126f276e1419a8504f0a0fbd40
+      internalID: -1377233259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_62
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917d30cbbed7326489d71dc7522c0ac5
+      internalID: -781605037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_63
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3efe359458c77c41b4fba84cf96a156
+      internalID: -1035568006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_64
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3040
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51f795f2f371fb4b93e4d6a0d5c6bba
+      internalID: 639265940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075e00aa98bb35a408eefaa871ad1963
+      internalID: -827456458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_66
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c4592edc2910742945fca9f7022cc2
+      internalID: 59687734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_67
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d047391a3a899b04c885abe22f64e057
+      internalID: -643713852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_68
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8988faba301224a96878fd761a6329
+      internalID: 582435110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_69
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957249c6be63c2142b4fdfe87c6a6624
+      internalID: 133426323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_70
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6976b7034d1c3642af5d6f37f1d6b03
+      internalID: 1781045421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_71
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99e01e2a12f33747bedf2669294d58f
+      internalID: -1874678029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_72
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44250af4c2b858241bf766d9bed576cc
+      internalID: 669071198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_73
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba54671e75dfc0643b6b8ff9a5b92755
+      internalID: 133626741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_74
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8959535a66a5df94fafd9c0283b86b2c
+      internalID: -1497586323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_75
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb7bf3bd7f987b4695a1933fc14d8ac
+      internalID: 1298127215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_76
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a063ff81a2a134443bd0e40eec8d1fe0
+      internalID: 1662291377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_77
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2736
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e74d0d2e5e3f1e43a9cc3d78b703d69
+      internalID: 467628065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602da494c72b91a4793d1b249d448c50
+      internalID: -620468960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_79
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553ca88d61a71c0499d5f5ebd4f8ccab
+      internalID: 870713175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_80
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270fd26c6a1c40448954c41202f608ea
+      internalID: 1663455668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_81
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42f9a17d38c66a48be7103b3c5b4f20
+      internalID: 1945118536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_82
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ebd3c2e8e728d40bb81df91b461fbf
+      internalID: 672823431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_83
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceed4edd4eeb3646a8a92ce9cec3486
+      internalID: 550462595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_84
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcdd549c4337c542900e7213ac478bd
+      internalID: 134378651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_85
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a42d08a6a49db14bba250f25bd7f41f
+      internalID: -530147733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_86
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eb98b1e3136ee41ad4dfd77e5d400a
+      internalID: -498112295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_87
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c52d0a24abbd944b85049d5efd8661
+      internalID: -1645362443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_88
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e442b07e46c935439171197528c3e27
+      internalID: 1370870521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_89
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c75fb8bbcb27b46b9e9460fa65ac4d
+      internalID: -302153294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_90
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2432
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cb049ccb1a0f34693ac7a230b982c8
+      internalID: -588588194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc656a2d35c89d459b2d3be0bf79cc9
+      internalID: 1043755717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_92
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e7472425ece8445adb0ea3bd966e7c
+      internalID: -416220137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_93
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc353be47d007654d887c1955e254df5
+      internalID: -2082440240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_94
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ca894402e138a46bd4ea71b8e81be0
+      internalID: -937203030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_95
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae1c8cf372c61d46bb20e89f708fc3b
+      internalID: -1617909098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_96
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b43b51b9e073d4b90e1bd0ed349472
+      internalID: -435139897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_97
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb67e7cf371c4b44b63ae8857d7435f
+      internalID: -763215727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_98
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c7019755de2844180890b1e3d3a4a8
+      internalID: -840772751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_99
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67238cdf93916e419cfd08f1d62a2f6
+      internalID: -1244918488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_100
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db43a343936319144886f3773c30ce3d
+      internalID: -363687913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_101
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b630553075a3c3b4bb6a0cb623063733
+      internalID: 281745717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_102
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000d7ac44757b19418216a1630af831b
+      internalID: 1090932898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_103
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2128
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2530daacb90eb44cb48a1bdde4202cd
+      internalID: 1096015841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab14d1b3f619fdc47bae69ce2e663647
+      internalID: -161315820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_105
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306bffa9e8f147d4b900da412d3d4987
+      internalID: -697893276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_106
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce6d901ed5da6d43a0b94865855f060
+      internalID: 1530673345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_107
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acadbb3a9168fe44db83eb547db45942
+      internalID: 1784396525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_108
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842c9b1a315827941a7a493212ea04a9
+      internalID: 814157287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_109
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f708ce971dee03443a686aca5ad0cadb
+      internalID: 1597520736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_110
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e799775df0a0e45a4467ffd60b8378
+      internalID: 1729041259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_111
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f713a23c1a0764f815973f1a72cd64
+      internalID: -828395400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_112
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4db47574e99f7498feb7a44770d7db
+      internalID: -940965767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_113
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b4f3badd59d854d82119f7fb073adc
+      internalID: 1751561043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_114
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fe83b5f4c036f4d84ab37fffb1c4eb
+      internalID: 535686910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_115
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac175387428a0d247afad9f9ee2b877f
+      internalID: -1880780389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_116
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1824
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b76b71d555b3e4d9288fca1b03b41f
+      internalID: 541588079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0276bc2829cd8d4aa94f64309e3e4ae
+      internalID: -139055880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_118
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28a21d2896a25642836212c4d75b418
+      internalID: 1208555105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_119
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4c2fc4b0b1ec4458cc801c5e3ef6ad
+      internalID: 923282700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_120
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8011265807b6114dbea6bbecbe0aec0
+      internalID: 336749686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_121
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4660d36617534b42b79d9b677119b30
+      internalID: 1360922300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_122
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a38e992aa376542add0d2598ad0007
+      internalID: -291621664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_123
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fd28d98207856488676c2ce6158751
+      internalID: -1005582962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_124
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe6a4510435cce4495c0ba2d18a33e2
+      internalID: 1712171613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_125
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f35e2179f3bfb4695fc2da61e4cfe7
+      internalID: -733500421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_126
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14045aa1f5c496a4cb8a987335d8f33a
+      internalID: 1717823629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_127
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d33ce8d7732cc64784edf651aa5187e
+      internalID: -1056803270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_128
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f4442104a1fb64aacb83b149b4bc88
+      internalID: -1114989542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_129
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1520
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e631732c9323c240b4ae7bf474c5a70
+      internalID: -650126021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276c1b463963d7a498d45808edd815f0
+      internalID: -57278014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_131
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d25e1ee761d4049a0f82d984c254ac
+      internalID: 1412034326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_132
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ae211f7b7b8784fbbd24b3e540c46d
+      internalID: -225625055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_133
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c656423c76324e9ccb514c1504668
+      internalID: 25251187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_134
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575caa42eb5abb348b46652a48fa9a02
+      internalID: 754737787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_135
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa4ccecab1493540b471af02117ca83
+      internalID: 169013884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_136
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541874a2f9a0f9b44a40eafa40a385b8
+      internalID: 981581886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_137
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a71d0d44e0fcc41989fe694e279158
+      internalID: 1339716779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_138
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c772f6830da43449aaf9f9ec0a6bbcd
+      internalID: 63117122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_139
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3e348e9b564324690650a4fb2bf63f
+      internalID: 303604497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_140
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a481ba9004eaaa4980901013aa506f6
+      internalID: 226817742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_141
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7956929914c688a45af6488a77668bf9
+      internalID: 872825580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_142
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1216
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c837a7d6e66c347a1f94120042f344
+      internalID: 213421319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f228b672395ae914c96b0835f61b2a35
+      internalID: -1370678445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_144
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24923533702e2664c84c710d3d65c402
+      internalID: -299785374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_145
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dced3621ca2904d83f733387600dcf
+      internalID: -1020869555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_146
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461fabf54454e114ab23c436e427eedd
+      internalID: -1841016596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_147
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed74d41754ddd746903c501411b48c7
+      internalID: -525735767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_148
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c16b8ec394b724d9478a4f6f5a8b2a
+      internalID: 1926798989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_149
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8aa04c0e5c62d24c963c54116048952
+      internalID: -458743387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_150
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9716665275a854f43978e5b15d779172
+      internalID: -703170224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_151
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ae80d0156562b47a24307ea5c5d3f6
+      internalID: -1811519747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_152
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c82ec41f70fd41b2d1925228f349a
+      internalID: -1485102928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_153
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e1b67104aef0040b98038c0649a005
+      internalID: -1714323119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_154
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa7960bc6fbdb74aa35e29a90d10403
+      internalID: -975633824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_155
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 912
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc5bea922d406047a4b6c15c5d51fc8
+      internalID: -567761391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822440ab6fd8f00489a768946140b150
+      internalID: -1839356048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_157
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021c739fb158577459c2e350106ddb04
+      internalID: -2008000925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_158
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639393908aa24a841981f30ffa959609
+      internalID: -1258866580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_159
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489ec08d0ad91ef42be35b3af8fc880c
+      internalID: 920642737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_160
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5533bde34e2e6d443b17a59d5d85de9e
+      internalID: 583004239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_161
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f1255a820e0fd4db5ee9de19505117
+      internalID: -1485448466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_162
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2ffa3f444010647a58a68d23646e3f
+      internalID: 1430635517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_163
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bab642e2187134f8f612932a714db4
+      internalID: 2016727786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_164
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7c543b65f32fd43956497cb99cdfca
+      internalID: 2118827793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_165
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15295a8108c5d145a39ee07d93e4e09
+      internalID: 686321306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_166
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8b9266585cc024587a0adf466bb30c
+      internalID: 1704547754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_167
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8290b09f7d65924ab7038339d9a1fc2
+      internalID: 770442343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_168
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 608
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8405186927debeb4099f8fa93bd7f2ec
+      internalID: -1226590423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90357b19df59d6a4d9b1498212b03070
+      internalID: 965447376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_170
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2978a3001161e48b004eae0764d27f
+      internalID: 647313700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_171
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27b71fd7097960418cf39070d451533
+      internalID: 166718896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_172
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba4d443026b4f8449d5fd0f12193265
+      internalID: 2117662495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_173
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172bf95ab9706664891ee15c3cba7481
+      internalID: -1214799683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_174
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9cac5c778b3534cb30b953bcaeae86
+      internalID: 2479278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_175
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd428161472aaff44b97dd4f82e9d02e
+      internalID: -1367569993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_176
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518a76159a61dee4ca075d49d40e3552
+      internalID: -1823920215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_177
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31aaa485c80aad94080fc14d8805ce7c
+      internalID: -114679621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_178
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c56cb54f3ba784a897c35172ce2069
+      internalID: 1068448984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_179
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f622c6e0ce84cf448b334ed0c24c3a29
+      internalID: 326349267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_180
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cf334f6bca6d04ca62ec026a5cff0f
+      internalID: -59988050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_181
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 304
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432a53d6e19f1a74b84553b83677bcdf
+      internalID: 1573371462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffd0d6619064e340b990953946e27e4
+      internalID: -800238672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_183
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdfc972f3d6cd946878b47d551e0b36
+      internalID: 2051653149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_184
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d36fa356b3d7ff4499ba6853c3f9700
+      internalID: 1512196668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_185
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14e21981ba4ba340af692e825859849
+      internalID: 288061079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_186
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f158e3eb967c3479441c2417ddbe0f
+      internalID: 1199665087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_187
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506ff513ddb54dc4684a7aece4a73fc8
+      internalID: 1963573676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_188
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738b251eee8895742923a2d6f617a4b2
+      internalID: 791391544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_189
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e51b4d51d88e384da4daa50fc23b7c5
+      internalID: -1403081899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_190
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117371695f3324e4783e6b66aee60696
+      internalID: 1933986473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_191
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 0
+        width: 540
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b90920377e3654081825cd6a8733b8
+      internalID: 1497519461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4effecb2b6e534b4eb6c6b985e9bc30c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_0: -2520765956168685633
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_1: -1365207452
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_10: 295553593
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_100: -363687913
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_101: 281745717
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_102: 1090932898
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_103: 1096015841
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_104: -161315820
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_105: -697893276
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_106: 1530673345
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_107: 1784396525
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_108: 814157287
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_109: 1597520736
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_11: 448192819
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_110: 1729041259
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_111: -828395400
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_112: -940965767
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_113: 1751561043
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_114: 535686910
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_115: -1880780389
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_116: 541588079
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_117: -139055880
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_118: 1208555105
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_119: 923282700
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_12: -782479406
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_120: 336749686
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_121: 1360922300
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_122: -291621664
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_123: -1005582962
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_124: 1712171613
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_125: -733500421
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_126: 1717823629
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_127: -1056803270
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_128: -1114989542
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_129: -650126021
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_13: 1355029518
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_130: -57278014
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_131: 1412034326
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_132: -225625055
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_133: 25251187
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_134: 754737787
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_135: 169013884
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_136: 981581886
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_137: 1339716779
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_138: 63117122
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_139: 303604497
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_14: 263114108
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_140: 226817742
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_141: 872825580
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_142: 213421319
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_143: -1370678445
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_144: -299785374
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_145: -1020869555
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_146: -1841016596
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_147: -525735767
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_148: 1926798989
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_149: -458743387
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_15: -2094951617
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_150: -703170224
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_151: -1811519747
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_152: -1485102928
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_153: -1714323119
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_154: -975633824
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_155: -567761391
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_156: -1839356048
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_157: -2008000925
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_158: -1258866580
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_159: 920642737
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_16: -1172897119
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_160: 583004239
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_161: -1485448466
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_162: 1430635517
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_163: 2016727786
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_164: 2118827793
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_165: 686321306
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_166: 1704547754
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_167: 770442343
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_168: -1226590423
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_169: 965447376
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_17: -636382214
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_170: 647313700
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_171: 166718896
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_172: 2117662495
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_173: -1214799683
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_174: 2479278
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_175: -1367569993
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_176: -1823920215
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_177: -114679621
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_178: 1068448984
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_179: 326349267
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_18: -1199391690
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_180: -59988050
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_181: 1573371462
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_182: -800238672
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_183: 2051653149
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_184: 1512196668
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_185: 288061079
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_186: 1199665087
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_187: 1963573676
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_188: 791391544
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_189: -1403081899
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_19: 638500576
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_190: 1933986473
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_191: 1497519461
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_192: -2119250486
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_193: 2099300347
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_194: -942154878
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_2: -1228233468
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_20: -1058821056
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_21: 1212009100
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_22: 700783776
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_23: 1898771998
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_24: 454241147
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_25: -910599313
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_26: -713440168
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_27: 715118810
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_28: 1092897884
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_29: -290960126
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_3: 1033503374
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_30: -2009546002
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_31: -1066803526
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_32: -137313325
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_33: 1941292717
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_34: -440995410
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_35: 714932732
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_36: 1856803461
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_37: 694334255
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_38: 216618970
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_39: -1147170012
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_4: -2004267860
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_40: 1550539353
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_41: 1272634659
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_42: -90891141
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_43: 1430850801
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_44: 1092159407
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_45: 24470172
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_46: 1732422833
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_47: 833143462
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_48: -1078706458
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_49: 975270351
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_5: 2122317322
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_50: 400330689
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_51: 1437110469
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_52: -1112199369
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_53: 907311382
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_54: -354773216
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_55: -1396909178
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_56: 2026135967
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_57: -1152715778
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_58: 596661814
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_59: 371430488
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_6: 2050106452
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_60: -772760174
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_61: -1377233259
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_62: -781605037
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_63: -1035568006
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_64: 639265940
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_65: -827456458
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_66: 59687734
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_67: -643713852
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_68: 582435110
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_69: 133426323
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_7: -594800099
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_70: 1781045421
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_71: -1874678029
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_72: 669071198
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_73: 133626741
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_74: -1497586323
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_75: 1298127215
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_76: 1662291377
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_77: 467628065
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_78: -620468960
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_79: 870713175
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_8: -478899371
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_80: 1663455668
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_81: 1945118536
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_82: 672823431
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_83: 550462595
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_84: 134378651
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_85: -530147733
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_86: -498112295
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_87: -1645362443
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_88: 1370870521
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_89: -302153294
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_9: -659035447
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_90: -588588194
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_91: 1043755717
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_92: -416220137
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_93: -2082440240
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_94: -937203030
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_95: -1617909098
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_96: -435139897
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_97: -763215727
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_98: -840772751
+      Search_pixelartgif_mini-moss-ezgif.com-gif-to-sprite-converter_99: -1244918488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

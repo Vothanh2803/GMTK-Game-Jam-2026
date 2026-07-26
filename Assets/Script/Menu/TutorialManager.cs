@@ -5,14 +5,18 @@ using UnityEngine.UI;
 public class TutorialManager : MonoBehaviour
 {
     [Header("Tutorial Pages")]
+    [SerializeField] private GameObject tutorialPanel;
     [SerializeField] private List<GameObject> pages = new List<GameObject>();
 
     [Header("Navigation Buttons")]
     [SerializeField] private Button prevButton;
     [SerializeField] private Button nextButton;
 
-    private int currentPage = 0;
+    [SerializeField] private Button openButton;
+    [SerializeField] private Button closeButton;
 
+
+    private int currentPage = 0;
     private void Start()
     {
         prevButton.onClick.AddListener(PreviousPage);
@@ -25,6 +29,15 @@ public class TutorialManager : MonoBehaviour
     {
         if (pages.Count == 0)
             return;
+        
+        if (currentPage != pages.Count - 1)
+        {
+            closeButton.gameObject.SetActive(false);
+        }
+        else
+        {
+            closeButton.gameObject.SetActive(true);
+        }
 
         currentPage = Mathf.Clamp(index, 0, pages.Count - 1);
 
@@ -57,5 +70,16 @@ public class TutorialManager : MonoBehaviour
     {
         prevButton.interactable = currentPage > 0;
         nextButton.interactable = currentPage < pages.Count - 1;
+    }
+
+    public void OpenTutorial()
+    {
+        tutorialPanel.SetActive(true);
+        currentPage = 0;
+    }
+
+    public void CloseTutorial()
+    {
+        tutorialPanel.SetActive(false);
     }
 }
