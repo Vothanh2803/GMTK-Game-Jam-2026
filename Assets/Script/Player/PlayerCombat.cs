@@ -13,6 +13,7 @@ public class PlayerCombat : MonoBehaviour
     private PlayerSFXController sfxController;
 
     public bool IsBlocking { get; private set; } = false;
+    public int CurrentHeavyCost => currentHeavyCost;
 
     private void Awake()
     {
